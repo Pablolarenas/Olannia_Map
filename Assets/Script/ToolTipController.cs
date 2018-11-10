@@ -72,12 +72,12 @@ public class ToolTipController : MonoBehaviour, IPointerEnterHandler, IPointerEx
         if (scaleReference.localScale.x > changeLODValue)
         {
             eventImage.sprite = LODCloseSprite;
-            eventImage.SetNativeSize();
+            //eventImage.SetNativeSize();
         }
         else if(scaleReference.localScale.x < changeLODValue)
         {
             eventImage.sprite = LODFarSprite;
-            eventImage.SetNativeSize();
+            //eventImage.SetNativeSize();
         }
 
 	}
