@@ -41,6 +41,11 @@ public class MapController : MonoBehaviour
     [SerializeField] private GameObject eventSystem;
     [SerializeField] private List<GameObject> listOfPlayers;
     [SerializeField] private List<MapScrollRect> listOfMapScrollRect;
+    [SerializeField] private GameObject leftPanel;
+    [SerializeField] private GameObject rightPanel;
+    private GameObject from;
+    private GameObject to;
+
     public List<GameObject> ListOfPlayersInstanced = new List<GameObject>();
     private int currentPlayerIndex = 0;
     private Coroutine transition = null;
@@ -57,7 +62,8 @@ public class MapController : MonoBehaviour
 
     public void TransitionBetweenMaps(GameObject from, GameObject to)
     {
-        if(transition != null)
+        DeactivatePanels();
+        if (transition != null)
         {
             StopCoroutine(transition);
         }
@@ -102,6 +108,39 @@ public class MapController : MonoBehaviour
         }
         ListOfPlayersInstanced = new List<GameObject>();
         currentPlayerIndex = 0;
+    }
+
+    public void SpawnLeftPanel(ToolTipWindow info, GameObject from, GameObject to)
+    {
+        rightPanel.SetActive(false);
+        leftPanel.SetActive(true);
+        leftPanel.transform.GetChild(0).GetComponent<Image>().sprite = info.Image;
+        leftPanel.transform.GetChild(1).GetComponent<Text>().text = info.ShortDescription;
+        leftPanel.transform.GetChild(2).GetComponent<Text>().text = info.LongDescription;
+        this.from = from;
+        this.to = to;
+    }
+
+    public void SpawnRightPanel(ToolTipWindow info, GameObject from, GameObject to)
+    {
+        leftPanel.SetActive(false);
+        rightPanel.SetActive(true);
+        rightPanel.transform.GetChild(0).GetComponent<Image>().sprite = info.Image;
+        rightPanel.transform.GetChild(1).GetComponent<Text>().text = info.ShortDescription;
+        rightPanel.transform.GetChild(2).GetComponent<Text>().text = info.LongDescription;
+        this.from = from;
+        this.to = to;
+    }
+
+    public void DeactivatePanels()
+    {
+        rightPanel.SetActive(false);
+        leftPanel.SetActive(false);
+    }
+
+    public void ChangeMap()
+    {
+        TransitionBetweenMaps(from, to);
     }
 
 }

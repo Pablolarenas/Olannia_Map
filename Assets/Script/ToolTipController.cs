@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ToolTipController : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+public class ToolTipController : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IPointerUpHandler
 {
     [SerializeField] private ToolTipWindow toolTipWindowInfo;
+    [SerializeField] private ToolTipWindow panelTipWindowInfo;
     [SerializeField] private GameObject toolTip;
     [SerializeField] private Sprite LODFarSprite;
     [SerializeField] private Sprite LODCloseSprite;
@@ -22,10 +23,23 @@ public class ToolTipController : MonoBehaviour, IPointerEnterHandler, IPointerEx
     private Transform toolTipReference = null;
     private Transform scaleReference;
     private Image eventImage;
+    private float timeBeingHeld = 0;
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        mapController.TransitionBetweenMaps(mapReference, openMap);
+        if (Screen.width / 2f < Input.mousePosition.x)
+        {
+            mapController.SpawnLeftPanel(panelTipWindowInfo, mapReference, openMap);
+        }
+        else
+        {
+            mapController.SpawnRightPanel(panelTipWindowInfo, mapReference, openMap);
+        }
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        timeBeingHeld = 0;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -81,5 +95,4 @@ public class ToolTipController : MonoBehaviour, IPointerEnterHandler, IPointerEx
         }
 
 	}
-
 }

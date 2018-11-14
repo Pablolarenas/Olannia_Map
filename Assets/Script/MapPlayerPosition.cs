@@ -3,18 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class MapPlayerPosition : MonoBehaviour, IPointerClickHandler
+public class MapPlayerPosition : MonoBehaviour, IPointerClickHandler, IPointerUpHandler
 {
     private GameObject playerToMove;
     private MapController mapController;
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if(playerToMove != null)
+        if (playerToMove != null)
         {
             playerToMove.transform.position = Input.mousePosition;
             playerToMove = null;
         }
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        mapController.DeactivatePanels();
     }
 
     public void SetPlayerToMove(GameObject playerToMove)
