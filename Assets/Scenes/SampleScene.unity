@@ -969,8 +969,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 67}
-  m_SizeDelta: {x: 785.2, y: 30}
+  m_AnchoredPosition: {x: 0, y: 3.5}
+  m_SizeDelta: {x: 785.2, y: 92.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144481366
 MonoBehaviour:
@@ -992,13 +992,13 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: efc915e065bd6c348ae4ec1f70a1616a, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 50
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1167,8 +1167,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 44.79978}
-  m_SizeDelta: {x: 785.2, y: 30}
+  m_AnchoredPosition: {x: 0, y: -190.4}
+  m_SizeDelta: {x: 785.2, y: 617.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1227772961
 MonoBehaviour:
@@ -1191,7 +1191,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1431,12 +1431,21 @@ Prefab:
     - target: {fileID: 114947680353576978, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
         type: 2}
       propertyPath: panelTipWindowInfo.ShortDescription
-      value: PANEL CULIAO
+      value: Erimbul, City of The Coin
       objectReference: {fileID: 0}
     - target: {fileID: 114947680353576978, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
         type: 2}
       propertyPath: panelTipWindowInfo.LongDescription
-      value: PUTOOOOOOOOOOO
+      value: Ramdyr uses its strategic location in the Sea of Miracles as a central,
+        and neutral, gathering zone among merchants from all surrounding realms. Kingdom
+        rich in culture, aristocratic tradition and, above all, commerce and trade.
+        Its rates and commerce policies makes Erimbul, its capital, one of the most
+        important destinies for business.  The kingdom was once part of the Kamyr
+        empire. After the dissolution, the former rulers remained in the main cities
+        of the region, building numerous forts around them, while they develop their
+        commercial activities.  Due its noble heritage and cosmopolitan style, Ramdyr
+        is also known as the capitol of the western culture for the aristocracy, gathering
+        important universities and cultural centres among in their cities.
       objectReference: {fileID: 0}
     - target: {fileID: 224287424965665378, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
         type: 2}
@@ -1532,8 +1541,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 44.8}
-  m_SizeDelta: {x: 785.2, y: 30}
+  m_AnchoredPosition: {x: 0, y: -190.4}
+  m_SizeDelta: {x: 785.2, y: 617.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452280513
 MonoBehaviour:
@@ -1556,7 +1565,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1950,8 +1959,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 66.99967}
-  m_SizeDelta: {x: 785.2, y: 30}
+  m_AnchoredPosition: {x: 0, y: 3.5}
+  m_SizeDelta: {x: 785.2, y: 92.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2106168991
 MonoBehaviour:
@@ -1973,13 +1982,13 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: efc915e065bd6c348ae4ec1f70a1616a, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 50
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
