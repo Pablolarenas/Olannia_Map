@@ -138,9 +138,9 @@ public class MapController : MonoBehaviour
         InstanceContent instance = contentManager.GetContentInstance(cityName);
         rightPanel.SetActive(false);
         leftPanel.SetActive(true);
-        leftPanel.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("SidePanelImages/"+ instance.Image);
-        leftPanel.transform.GetChild(1).GetComponent<Text>().text = instance.Title;
-        leftPanel.transform.GetChild(2).GetComponent<Text>().text = instance.Description;
+        leftPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/"+ instance.Image);
+        leftPanel.GetComponent<PanelController>().Title.text = instance.Title;
+        leftPanel.GetComponent<PanelController>().SetDescription(instance.Description);
         this.from = from;
         this.to = to;
     }
@@ -150,9 +150,9 @@ public class MapController : MonoBehaviour
         InstanceContent instance = contentManager.GetContentInstance(cityName);
         leftPanel.SetActive(false);
         rightPanel.SetActive(true);
-        rightPanel.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
-        rightPanel.transform.GetChild(1).GetComponent<Text>().text = instance.Title;
-        rightPanel.transform.GetChild(2).GetComponent<Text>().text = instance.Description;
+        rightPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
+        rightPanel.GetComponent<PanelController>().Title.text = instance.Title;
+        rightPanel.GetComponent<PanelController>().SetDescription(instance.Description);
         this.from = from;
         this.to = to;
     }

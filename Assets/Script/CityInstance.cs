@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IPointerUpHandler
 {
+    [SerializeField] private MapOption mapOption;
     [SerializeField] private ToolTipWindow toolTipWindowInfo;
     [SerializeField] private string cityName;
     [SerializeField] private GameObject toolTip;
@@ -21,7 +22,6 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private bool isHovering = false;
     private float currentTimeHovering = 0;
     private Transform toolTipReference = null;
-    private Transform scaleReference;
     private Image eventImage;
     private float timeBeingHeld = 0;
 
@@ -62,7 +62,6 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         mapController = FindObjectOfType<MapController>();
         eventImage = GetComponent<Image>();
-        scaleReference = transform.parent.parent;
         timeToSpawn = mapController.TimeToSpawn;
         changeLODValue = (mapReference.GetComponent<MapOption>().maxZoom - mapReference.GetComponent<MapOption>().minZoom) * (changeLOD / 100f);
         isInit = true;
@@ -78,21 +77,20 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             {
                 toolTipReference = Instantiate(toolTip).transform;
                 toolTipReference.SetParent(transform,false);
-                StartCoroutine(toolTipReference.GetComponent<ToolTipInstance>().Init(toolTipWindowInfo, scaleReference));
+                StartCoroutine(toolTipReference.GetComponent<ToolTipInstance>().Init(toolTipWindowInfo, mapOption.ScaleReference));
             }
             currentTimeHovering += Time.deltaTime;
         }
 
-        if (scaleReference.localScale.x > changeLODValue)
+        if (mapOption.ScaleReference.localScale.x > changeLODValue)
         {
             eventImage.sprite = LODCloseSprite;
             //eventImage.SetNativeSize();
         }
-        else if(scaleReference.localScale.x < changeLODValue)
+        else if(mapOption.ScaleReference.localScale.x < changeLODValue)
         {
             eventImage.sprite = LODFarSprite;
             //eventImage.SetNativeSize();
         }
-
 	}
 }
