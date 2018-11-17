@@ -46,7 +46,7 @@ public class MapController : MonoBehaviour
     [SerializeField] private ContentManager contentManager;
     [SerializeField] private GameObject backButton;
     private GameObject previousMap;
-    private GameObject currentMap;
+    [SerializeField] private GameObject currentMap;
 
     private GameObject from;
     private GameObject to;
@@ -97,6 +97,11 @@ public class MapController : MonoBehaviour
     public void BackButton()
     {
         TransitionBetweenMaps(currentMap, previousMap);
+    }
+
+    public void ToggleMapView()
+    {
+        currentMap.GetComponent<MapOption>().ToggleMapOverlay();
     }
 
     public PlayerToken GetPlayerToSpawn()
