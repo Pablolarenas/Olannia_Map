@@ -1,14 +1,33 @@
 [
 	{
-		"nombre" : "Caca",
+		"nombre" : "Ish-Khan",
 		"imagen" : "City_Token",
-		"titulo" : "asdasdasdasdasdasd",
-		"descripcion" : "DESCRIPTICN CULIAAA"
+		"titulo" : "Ish-Khan: The Realm of the Living Sun",
+		"descripcion" : "Located east of the Exile, in the desert of Anarkhan, Ishkan is found; one of the most ancient and culturally relevant kingdoms of all Olannia. The Ishkanians are heirs of the arcane sciences, developed by the draconic monarchs of the Kalamavaar empire. The kingdom was founded on the ruins of the legendary city of Ivelyn, at the hands of King Aasimar: Eran Azavilu, leader of the liberation forces during the war against dragons.
+
+The cultural legacy of Ish-kan transcends its limits. The kingdom has been the cradle of the development of science, religion and commerce from the Golden Age. The Ishkan culture is considered by many to be the mother of the modern kingdoms of Amoss.
+Additionally, it is the main port of departure for the hundreds of expeditions beyond the Igneous Sea of ​​Solaria to the indomitable continent of Zera.
+
+Ishkhan is a monarchy, which rules next to the Council of Magi from the tower of the Ivory of Fire. The king, a descendant of Eran, is venerated by the Ishkans as a living god, being the only authority on state affairs and the highest court of justice. The king, living in the Jade Palace, in Ivelyn, and is rarely seen by lbe plebeians, making public appearances for festivities and other important events.
+
+Ishkan society revolves around local agriculture, the spice trade and mining. The spiritual life is a cornerstone in their culture. The Ishkans pray both light and shadows, being one of the few places in the world where the churches of gods of death are allowed and respected.
+
+The humans and dwarves in the area have dark hair and black eyes *. Humans tend to measure less than the average, in addition to having a thinner biotype.
+
+Ishlans are very proud of their legacy and longevity as a molitary and culturaly potence along history. Pride and misticism are two distinctive qualities of parangons from these lands. "
 	},
 	{
-		"nombre" : "sangre",
+		"nombre" : "Evereth",
 		"imagen" : "City_Token_Zoom",
-		"titulo" : "asdasdasdasdasdasd22222222222",
-		"descripcion" : "DESCRIPTICN CULIAAA2222222222222222222"
+		"titulo" : "Evereth: The Realm beyond the coulds",
+		"descripcion" : "At the heart of the Cloudy Mountains is Evereth, composed of several fortress-cities between millennia and dense forests and ice fields. Each citadel is governed by a member of the extended and ancient Leadheart family, an airtight house that claims direct descendants of The Primals, which traveled from the Great Plateau (now the area known as "The Exile") to the high mountains, then of the fall of the Sultari Empire. It is said that a curse was imposed on this caste as punishment for its bloody invasion, which led to the massacre of several tribes in the area. It is said that dementia and anger run in the veins of its members, who rarely leave their castles.
+
+Despite its isolated position on the globe, the kingdom actively trades with the rest of the nations of Amoss and Kerak, mainly with the Free Kingdoms and Veross.The kingdom has numerous iron deposits, which they export to their neighbors, being one of the largest producers in the north of the continent.
+
+Their culture revolves around war and veneration of natural forces. Its religion, of animistic cut, centers in the cult of the Nine, old natural spirits of the forest, the winter, the animals and the mountains.
+
+The men and women of Evereth are generally direct and rough of treatment, not being so accustomed to the sutelties of a cosmopolitan life from other realms.They tend to be very attached to their rules, looking somewhat inflexible in the eyes of others. despite this the northerns are respected for their honor, spirituality, military tradition and above all resistance.
+
+The humans and dwarves in the area have light hair (blond and reddish tones) and light eyes*. Humans tend to measure more than the average, having a more robust biotype."
 	}
 ]
