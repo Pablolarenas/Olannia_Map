@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ToolTipController : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IPointerUpHandler
+public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IPointerUpHandler
 {
     [SerializeField] private ToolTipWindow toolTipWindowInfo;
-    [SerializeField] private ToolTipWindow panelTipWindowInfo;
+    [SerializeField] private string cityName;
     [SerializeField] private GameObject toolTip;
     [SerializeField] private Sprite LODFarSprite;
     [SerializeField] private Sprite LODCloseSprite;
@@ -29,11 +29,11 @@ public class ToolTipController : MonoBehaviour, IPointerEnterHandler, IPointerEx
     {
         if (Screen.width / 2f < Input.mousePosition.x)
         {
-            mapController.SpawnLeftPanel(panelTipWindowInfo, mapReference, openMap);
+            mapController.SpawnLeftPanel(cityName, mapReference, openMap);
         }
         else
         {
-            mapController.SpawnRightPanel(panelTipWindowInfo, mapReference, openMap);
+            mapController.SpawnRightPanel(cityName, mapReference, openMap);
         }
     }
 

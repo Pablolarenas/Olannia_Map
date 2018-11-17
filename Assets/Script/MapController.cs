@@ -43,6 +43,7 @@ public class MapController : MonoBehaviour
     [SerializeField] private List<MapScrollRect> listOfMapScrollRect;
     [SerializeField] private GameObject leftPanel;
     [SerializeField] private GameObject rightPanel;
+    [SerializeField] private ContentManager contentManager;
     private GameObject from;
     private GameObject to;
 
@@ -110,24 +111,26 @@ public class MapController : MonoBehaviour
         currentPlayerIndex = 0;
     }
 
-    public void SpawnLeftPanel(ToolTipWindow info, GameObject from, GameObject to)
+    public void SpawnLeftPanel(string cityName, GameObject from, GameObject to)
     {
+        InstanceContent instance = contentManager.GetContentInstance(cityName);
         rightPanel.SetActive(false);
         leftPanel.SetActive(true);
-        leftPanel.transform.GetChild(0).GetComponent<Image>().sprite = info.Image;
-        leftPanel.transform.GetChild(1).GetComponent<Text>().text = info.ShortDescription;
-        leftPanel.transform.GetChild(2).GetComponent<Text>().text = info.LongDescription;
+        leftPanel.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("SidePanelImages/"+ instance.Image);
+        leftPanel.transform.GetChild(1).GetComponent<Text>().text = instance.Title;
+        leftPanel.transform.GetChild(2).GetComponent<Text>().text = instance.Description;
         this.from = from;
         this.to = to;
     }
 
-    public void SpawnRightPanel(ToolTipWindow info, GameObject from, GameObject to)
+    public void SpawnRightPanel(string cityName, GameObject from, GameObject to)
     {
+        InstanceContent instance = contentManager.GetContentInstance(cityName);
         leftPanel.SetActive(false);
         rightPanel.SetActive(true);
-        rightPanel.transform.GetChild(0).GetComponent<Image>().sprite = info.Image;
-        rightPanel.transform.GetChild(1).GetComponent<Text>().text = info.ShortDescription;
-        rightPanel.transform.GetChild(2).GetComponent<Text>().text = info.LongDescription;
+        rightPanel.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
+        rightPanel.transform.GetChild(1).GetComponent<Text>().text = instance.Title;
+        rightPanel.transform.GetChild(2).GetComponent<Text>().text = instance.Description;
         this.from = from;
         this.to = to;
     }

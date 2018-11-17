@@ -10,7 +10,7 @@ public class MapScrollRect : ScrollRect
     [SerializeField] float _zoomLerpSpeed = 1f;
     private float minZoom = 0;
     private float maxZoom = 0;
-    float _currentZoom = 1;
+    float _currentZoom = 0.1f;
     bool _isPinching = false;
     float _startPinchDist;
     float _startPinchZoom;
@@ -25,6 +25,7 @@ public class MapScrollRect : ScrollRect
 
         minZoom = GetComponent<MapOption>().minZoom;
         maxZoom = GetComponent<MapOption>().maxZoom;
+        _currentZoom = minZoom;
     }
 
     private void Update()
