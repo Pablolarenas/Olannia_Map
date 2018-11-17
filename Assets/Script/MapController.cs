@@ -44,6 +44,10 @@ public class MapController : MonoBehaviour
     [SerializeField] private GameObject leftPanel;
     [SerializeField] private GameObject rightPanel;
     [SerializeField] private ContentManager contentManager;
+    [SerializeField] private GameObject backButton;
+    private GameObject previousMap;
+    private GameObject currentMap;
+
     private GameObject from;
     private GameObject to;
 
@@ -63,6 +67,7 @@ public class MapController : MonoBehaviour
 
     public void TransitionBetweenMaps(GameObject from, GameObject to)
     {
+        SetBackButton(from, to);
         DeactivatePanels();
         if (transition != null)
         {
@@ -80,6 +85,18 @@ public class MapController : MonoBehaviour
         from.SetActive(false);
         to.SetActive(true);
         eventSystem.SetActive(true);
+    }
+
+    private void SetBackButton(GameObject from,GameObject to)
+    {
+        previousMap = from;
+        currentMap = to;
+        backButton.SetActive(to.name != "World_Map");
+    }
+
+    public void BackButton()
+    {
+        TransitionBetweenMaps(currentMap, previousMap);
     }
 
     public PlayerToken GetPlayerToSpawn()
