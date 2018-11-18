@@ -1,7 +1,7 @@
 [
 	{
 		"nombre" : "Ish-Khan",
-		"imagen" : "City_Token",
+		"imagen" : "Iskan",
 		"titulo" : "Ish-Khan: The Empire of the Sun",
 		"descripcion" : 
 		
@@ -20,7 +20,7 @@ The humans and dwarves in the area have dark hair and black eyes *. Humans tend 
 	},
 	{
 		"nombre" : "Evereth",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Ever",
 		"titulo" : "Evereth: The Realm beyond the coulds",
 		"descripcion" : 
 		
@@ -38,7 +38,7 @@ The humans and dwarves in the area have light hair (blond and reddish tones) and
 	}
 	{
 		"nombre" : "Veross",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Ver",
 		"titulo" : "Veross: The Holy Sword",
 		"descripcion" : 
 		
@@ -55,7 +55,7 @@ Verossians are particulary, despotic, racist and distrust of foreign cultures an
 	}
 	{
 		"nombre" : "Free",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Free",
 		"titulo" : "The Free Kingdoms of the Blazing Coast",
 		"descripcion" : 
 		
@@ -69,7 +69,7 @@ Due its merchant nature, the realm is inhabited by several races. Theres a few c
 	
 		{
 		"nombre" : "Delvos",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Del",
 		"titulo" : "Delvos: The Bank of the Coast",
 		"descripcion" : 
 		
@@ -89,7 +89,7 @@ The nation is famous for its technological development, particulary in the field
 	
 			{
 		"nombre" : "Talos",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Tal",
 		"titulo" : "Talos: Protectors of the Black Iron Coast",
 		"descripcion" : 
 		
@@ -111,7 +111,7 @@ In terms of behaviour, Talonians are usually very pragmatic and sometimes a bit 
 	
 				{
 		"nombre" : "Ramdyr",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Ramd",
 		"titulo" : "Ramdyr: The Realm of the Coin",
 		"descripcion" : 
 		
@@ -129,7 +129,7 @@ The kingdom is ruled by the Duke of Erimbul, represented by the Ilberd family, a
 	
 					{
 		"nombre" : "Archipelago",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Arch",
 		"titulo" : "The Grand Archipelago",
 		"descripcion" : 
 		
@@ -161,7 +161,7 @@ Ramneshk is a threatening war horde, which has learned how to survive among othe
 	
 							{
 		"nombre" : "Rion",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Rion",
 		"titulo" : "Rion Islands: The Shi-Tar Sanctuary",
 		"descripcion" : 
 		
@@ -177,7 +177,7 @@ The islands are misterious, and its inhabitants show themselves reserved and qui
 	
 							{
 		"nombre" : "Zav",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Zav",
 		"titulo" : "Zav-Azur: The Kingdom of the Plague",
 		"descripcion" : 
 		
@@ -198,7 +198,7 @@ The explosive expansion of the Sultari has become a threat for the realms across
 	
 							{
 		"nombre" : "Kult",
-		"imagen" : "City_Token_Zoom",
+		"imagen" : "Kul",
 		"titulo" : "Kulth: The Arcane Leash",
 		"descripcion" : 
 		
