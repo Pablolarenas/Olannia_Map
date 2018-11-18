@@ -2,32 +2,215 @@
 	{
 		"nombre" : "Ish-Khan",
 		"imagen" : "City_Token",
-		"titulo" : "Ish-Khan: The Realm of the Living Sun",
-		"descripcion" : "Located east of the Exile, in the desert of Anarkhan, Ishkan is found; one of the most ancient and culturally relevant kingdoms of all Olannia. The Ishkanians are heirs of the arcane sciences, developed by the draconic monarchs of the Kalamavaar empire. The kingdom was founded on the ruins of the legendary city of Ivelyn, at the hands of King Aasimar: Eran Azavilu, leader of the liberation forces during the war against dragons.
+		"titulo" : "Ish-Khan: The Empire of the Sun",
+		"descripcion" : 
+		
+		
+"Located east of the Exile, in the desert of Anarkhan, Ishkan is found; one of the most ancient and culturally relevant kingdoms of all Olannia, the heirs of the arcane sciences, developed by the draconic monarchs of the Kalamavaar empire. The kingdom was founded on the ruins of the legendary city of Ivelyn, at the hands of King Aasimar: Eran Azavilu, leader of the liberation forces during the war against dragons.\n \n
 
-The cultural legacy of Ish-kan transcends its limits. The kingdom has been the cradle of the development of science, religion and commerce from the Golden Age. The Ishkan culture is considered by many to be the mother of the modern kingdoms of Amoss.
-Additionally, it is the main port of departure for the hundreds of expeditions beyond the Igneous Sea of ​​Solaria to the indomitable continent of Zera.
+The cultural legacy of Ish-kan transcends its limits. The kingdom has been the cradle of the development of science, religion and commerce from the Golden Age. The Ishkan culture is considered by many to be the mother of the modern kingdoms of Amoss. Additionally, it is the main port of departure for the hundreds of expeditions beyond the Igneous Sea of ​​Solaria to the indomitable continent of Zera.\n \n
 
-Ishkhan is a monarchy, which rules next to the Council of Magi from the tower of the Ivory of Fire. The king, a descendant of Eran, is venerated by the Ishkans as a living god, being the only authority on state affairs and the highest court of justice. The king, living in the Jade Palace, in Ivelyn, and is rarely seen by lbe plebeians, making public appearances for festivities and other important events.
+Ishkhan is a monarchy, which rules next to the Council of Magi from the tower of the Ivory of Fire. The king, a descendant of Eran, is venerated by the Ishkans as a living god, being the only authority on state affairs and the highest court of justice. The king, living in the Jade Palace, in Ivelyn, and is rarely seen by lbe plebeians, making public appearances for festivities and other important events.\n \n
 
-Ishkan society revolves around local agriculture, the spice trade and mining. The spiritual life is a cornerstone in their culture. The Ishkans pray both light and shadows, being one of the few places in the world where the churches of gods of death are allowed and respected.
+Ishkan society revolves around local agriculture, the spice trade and mining. The spiritual life is a cornerstone in their culture. The Ishkans pray both light and shadows, being one of the few places in the world where the churches of gods of death are allowed and respected. Ishlans are very proud of their legacy and longevity as a molitary and culturaly potence along history. Pride and misticism are two distinctive qualities of parangons from these lands.\n \n
 
 The humans and dwarves in the area have dark hair and black eyes *. Humans tend to measure less than the average, in addition to having a thinner biotype.
+"
 
-Ishlans are very proud of their legacy and longevity as a molitary and culturaly potence along history. Pride and misticism are two distinctive qualities of parangons from these lands. "
 	},
 	{
 		"nombre" : "Evereth",
 		"imagen" : "City_Token_Zoom",
 		"titulo" : "Evereth: The Realm beyond the coulds",
-		"descripcion" : "At the heart of the Cloudy Mountains is Evereth, composed of several fortress-cities between millennia and dense forests and ice fields. Each citadel is governed by a member of the extended and ancient Leadheart family, an airtight house that claims direct descendants of The Primals, which traveled from the Great Plateau (now the area known as "The Exile") to the high mountains, then of the fall of the Sultari Empire. It is said that a curse was imposed on this caste as punishment for its bloody invasion, which led to the massacre of several tribes in the area. It is said that dementia and anger run in the veins of its members, who rarely leave their castles.
+		"descripcion" : 
+		
+		
+"At the heart of the Cloudy Mountains is Evereth, composed of several fortress-cities between millennia and dense forests and ice fields. Each citadel is governed by a member of the extended and ancient Leadheart family, an airtight house that claims direct descendants of The Primals, which traveled from the Great Plateau (now the area known as The Exile) to the high mountains, then of the fall of the Sultari Empire. It is said that a curse was imposed on this caste as punishment for its bloody invasion, which led to the massacre of several tribes in the area. It is said that dementia and anger run in the veins of its members, who rarely leave their castles.\n \n
 
-Despite its isolated position on the globe, the kingdom actively trades with the rest of the nations of Amoss and Kerak, mainly with the Free Kingdoms and Veross.The kingdom has numerous iron deposits, which they export to their neighbors, being one of the largest producers in the north of the continent.
+Despite its isolated position on the globe, the kingdom actively trades with the rest of the nations of Amoss and Kerak, mainly with the Free Kingdoms and Veross.The kingdom has numerous iron deposits, which they export to their neighbors, being one of the largest producers in the north of the continent.\n \n
 
-Their culture revolves around war and veneration of natural forces. Its religion, of animistic cut, centers in the cult of the Nine, old natural spirits of the forest, the winter, the animals and the mountains.
+Their culture revolves around war and veneration of natural forces. Its religion, of animistic cut, centers in the cult of the Nine, old natural spirits of the forest, the winter, the animals and the mountains.\n \n
 
-The men and women of Evereth are generally direct and rough of treatment, not being so accustomed to the sutelties of a cosmopolitan life from other realms.They tend to be very attached to their rules, looking somewhat inflexible in the eyes of others. despite this the northerns are respected for their honor, spirituality, military tradition and above all resistance.
+The men and women of Evereth are generally direct and rough of treatment, not being so accustomed to the sutelties of a cosmopolitan life from other realms.They tend to be very attached to their rules, looking somewhat inflexible in the eyes of others. despite this the northerns are respected for their honor, spirituality, military tradition and above all resistance.\n \n
 
 The humans and dwarves in the area have light hair (blond and reddish tones) and light eyes*. Humans tend to measure more than the average, having a more robust biotype."
+
+	}
+	{
+		"nombre" : "Veross",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "Veross: The Holy Sword",
+		"descripcion" : 
+		
+"The crusader’s nation, self-claimed the true herit of Yawynia, the old city of the Shield Dragons during the Golden Age, is has been rised in the vast northern valleys to the north of The Thunder.  The republic, founded over the ruins of the old empire, gazes the constant expansion of the realm along Amoss. The crusade: to purify the earth from the darkness unleashed during the Portal Wars and redeem the human kind.\n \n
+
+The Verossians are active detractors of the arcane sciences, believing that those practices are a violation of Hellos sacred rules, responsible of provoking their wrath in the past. Instead, they defend and promote the words of the gods of light, particularly of Serveus, god of Justice, the main patron of the Shining Sword, the Imperial military order.\n \n 
+
+Veross has aggressively expanded their territory in the last 50 years, imposing their laws the wild clans of the northern plains, becoming a large and powerful empire.\n \n
+
+Despite its raputation as a dogmatic and , the Verossian Empire is respected and feared along the world. Their church is strong and has very deep influeces among the surrounding realms. And its military forces are large and powerful.\n \n 
+
+Verossians are particulary, despotic, racist and distrust of foreign cultures and their negative influence in their traditions and laws. They are seen as intolerants and religiously fanatic by its detractors, but also they are considered nobels and honorables among their allies. "
+
+	}
+	{
+		"nombre" : "Free",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "The Free Kingdoms of the Blazing Coast",
+		"descripcion" : 
+		
+"A confederation of rich families from Ishkhan and the middle lands, allies and rivals at the same time, the brother kingdoms, as common folks ussually refer to, are a nation of calculator, pragmatic and materialist nobles which doesn’t believe in gods or moral codes, being devotes of the power of gold and politics, as the real forces which controls the human destiny.\n \n 
+
+The Free Kingdoms lead the expansion of the known world to the savage continent of Zera, placing their colonies in the Castobello Islands. That's why their cities are very attractive destinations for travellers, adventurers and fortune seekers. However, due the constant conflicts of interest among the feudal families, the nation is particularly attractive for mercenaries and desertors from other realms who are willing for selling their steel for all sort of purpuses.\n \n 
+
+Due its merchant nature, the realm is inhabited by several races. Theres a few cities, though,  where small folk are seen as suspiciuos individuals, dwarven are trated  as cheap workforce or orcs are feared. Despite all, in general, the Brother Kingdoms are considered an open society to anyone who bring fortune to their pockets, as long the visitors doesnt mess whith the local lords and their interests."
+
+	}
+	
+		{
+		"nombre" : "Delvos",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "Delvos: The Bank of the Coast",
+		"descripcion" : 
+		
+"Located in the central area of the Blackiron Coast, lies the kingdom of Delvos; the largest region of the disoluted realm of Kelvor, founded by the former royal family and the noble houses loyal to it.\n \n 
+
+The kingdom is divided in ten ducats with a central government rled by the Great Archduke, based in its glorious city of Adatla, one of the most modern and prosperous cities in the known world. The realm controls the naval commerce in the Sea of Miracles, acting as a justicar for the rest of the allied nations in the region.\n \n 
+
+The realm is member of the The Three Sword Alliance with its brother kingdoms: Ramdyr and Talos, conforming the most powerful confederation of nations in the area.\n \n  
+
+Delvos is a realm of contrast. While in the midland there are mianly small towns and farms, its few large cities, located in the coast, are huge strongholds where the nation keeps the majority of its social and economical development.\n \n  
+
+Racewise speaking, the locals in the midlands are distrustful of others than humans or dwarves. These last ones, have a deep and long cultural merging with the humans of the region. In teh large cities, though, the tolerance of its inhabitants is higher, becoming very cosmopolitan.\n \n 
+
+The nation is famous for its technological development, particulary in the fields of architecture and engineering, but also, respected for their traditions in diplomacy and politics.It is known that a Delvonian diplomat is always well received enywhere it goes."
+
+	}
+	
+			{
+		"nombre" : "Talos",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "Talos: Protectors of the Black Iron Coast",
+		"descripcion" : 
+		
+"Known as "The Tower Realm" and famous for its inexpungable fortresses and strict military tradition, Talos is considered a proud protector of the Blackiron Coast and its inhabitants from the southern tribal menace and the pirate nations.\n \n
+
+The realm is composed by a number of forts and castles surrounded by towns and villages. The main authority both politicaly and military is The Council of the Helmets, a honourable group of nine experienced warlord; former generals of the fallen Realm of Kamyr. While, towns and villages are managed by a local military authority.\n \n 
+
+Talos is probably the most extrict and conservative of all kingdoms in all Olannia. However, the weight of their laws, sometimes considered excesively drastic,has been able to ensure a very secure and fair way of life to its inhabitants in the last years.\n \n 
+
+Talos culture developes around the art of battle. The military training is obligatory for all men at the age of 15 and the study of war is practically a must for any person who wants to become someone in teh realm, no matter which activity this persons performs. Talos is one of the few kingdoms along with Veross and Fharla who accepts women in the army as equals.\n \n 
+
+Besides war and military lore, the realm basically lives of agriculture and small minning. Most of the species are imported from other kingdoms and traded mostly exclusively in the ports. Midland towns and villages doesnt have too much contact with foreigns.The realm also manages the legendary prison of Yynn, receiving prisiones from all neighbour realms.\n \n
+
+In teh current years, Talos has been the main wall between the savages tribes of the southern lands and the rest of the kingdoms of the coast. They also keep the piracy under relative control in the area.\n \n 
+
+In terms of behaviour, Talonians are usually very pragmatic and sometimes a bit inflexible, but with a very strong sense of honour, law and order. The most extrovertide onbes, are usually balck humour personas with a sharp tongue and strong ideas. Their discipline is as admirable as their expertice in the arts of combat. Talonians are mostly religious, devotes of the god of Light, Hellos, and Serveus, their patron of fair combat. "
+
+	}
+	
+				{
+		"nombre" : "Ramdyr",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "Ramdyr: The Realm of the Coin",
+		"descripcion" : 
+		
+"Ramdyr uses its strategic location in the Sea of Miracles as a central, and neutral, gathering zone among merchants from all surrounding realms. Kingdom rich in culture, lore, magic and, above all, trade. Its rates and commerce policies makes Erimbul, its capital, one of the most important destinies for business.\n \n
+
+Due its merchant and scholar heritage and cosmopolitan style, Ramdyr is also known as the capitol of the western culture for the aristocracy, gathering important universities and cultural centres among in their cities.\n \n
+
+Ramdyr was the land of the old Kelvorian social traditions, arts, illustration and refinement. Once the kingdom was shaken by its civil war, splitting in three parts, most of the powerful and rich businessmen and erudites of the kingdom remained in the northern side of the territory, building forts around the big urban centres. In this way, Erimbul, in that days already considered a great city along the coast, became the capitol of the "medici", commonly called by its neighbours.\n \n 
+
+Since its independency, Ramdyr became a rich and powerful nation. Specially valued for their characteristic neutrality in political, religious and scientific matters. The Ramdyrians are people of faith, science, but overall: politics. Therefore, they built a cosmopolitan and tolerant society which receives traders, scholars and diplomats from all the corners of the known world.\n \n
+
+The kingdom is ruled by the Duke of Erimbul, represented by the Ilberd family, a beloved and respected house, relatives of the former Kamyr royal family. The Duke, reign with a council of noble men and women called The Council of the Coin, who assist the duke with the kingdom's administrative affairs."
+
+	}
+	
+					{
+		"nombre" : "Archipelago",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "The Grand Archipelago",
+		"descripcion" : 
+		
+"This zone gathers a number of allied free cities and towns, which trades all kind of sea related goods and naval technology. The cities are famous for their high-quality goods, its ships and sailors mercenaries. Similarly, the alchemy tradition is one of the attractions for adventurers, studiers and performers of the arcane arts.\n \n
+
+In contrast to Ish-kan, Veross or other secular kingdoms, the Great Archipelago is a safe place for unformal spellcasters and cults, serving as an important refuge for renegades.\n \n
+
+For many liberal-minded people, The Great Archipelago is a paradise, free of the lashing of lords, churches and aristocracy.However the zone is very conflictive due its lack of government and law. Riots and thievery is very common in the cities.\n \n 
+
+Despite their chaotic reputation, people from these lands are relatively  well received in most open kingdoms, considered passionate, talented and charismatic individuals.\n \n 
+
+In the las years, the port-city of Narys, has become the most important urban centre in the region; gathering a large amount of merchant, adventurers and outlanders around the world, who seek a new life aoitside the restrictions of their homelands."
+
+	}
+	
+						{
+		"nombre" : "Ram",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "Ramneshkhan: The Marching Rage",
+		"descripcion" : 
+		
+"Founded over ancient forest-folk ruins, the realm of Ramneshkhan is a gangrenous scar located in the southern region of Amoss, at the east of the Endless Greenlands.\n \n
+
+In a wasted valley of burned trees and mud, countless tribes of beasts from the dark planes were finally dominated by the Blood Clans, after centuries of war. Now, united by the power of the orc lords, their agents invade and steal from other realms and lands, spreading across Amoss as cancer.\n \n
+
+Ramneshk is a threatening war horde, which has learned how to survive among other more civilized and larger kingdoms, making use of their barbaric strength to enlarge their power."
+
+	}
+	
+							{
+		"nombre" : "Rion",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "Rion Islands: The Shi-Tar Sanctuary",
+		"descripcion" : 
+		
+"The Shi-Tar culture dates from the Elder days of the Sultarian Empire. Currently, they are the oldest realm in Olannia.However, and despite its logevity, the realm preserves itself as a small nation, neutral to all power conflicts of the younger, keeping its intriguing and ancestral culture mostly intact over the ages.\n \n
+
+The Shi-Tar nation has no army or gargantuan fortresses. The realms is composed by a number of towns in the middle of the jungle and mountains of their islands. The main cities hosts their legendary temples which preserves an exquisite and mysterious cultural legacy and knowledge, related to the studies of martial arts and witchcraft lore.\n \n 
+
+Over the years, several myth and stories of the Rion Islands and its inhabitans, has been spreaded. The ones who have visited the islands (traders, sailors or lost adventurers) claim to have seen disturbing witchcraft practices, rituals, ghosts and whild spirits in the deep of the jungle.\n \n 
+
+The islands are misterious, and its inhabitants show themselves reserved and quiet in front of foreigns. However, they're knwon to be a peaceful people with a very strong sense of honour, discipline and great wisdom. "
+
+	}
+	
+							{
+		"nombre" : "Zav",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "Zav-Azur: The Kingdom of the Plague",
+		"descripcion" : 
+		
+"The Zavarian Emprire was once a proud kingdom of pure-blood descendants from the ancient Sultarian civilization. 
+After the War of the Plague, various realms around Fatlyr Mountain were destroyed and the Sultari freed themselves from their imprisonment. 
+Since then, the matriarchy of The Queen of the Plague has started a bloody cruzade in Kerak to recclaim the orignal Sultarian territories.\n \n  
+
+The kingdom is highly hermetic. Most of what was known about the original Zavarians is lost behind the shadows of the new regime, which has closed their frontiers to the most of teh world, with the exception of Kulth, Ramneshkan and Arannia.\n \n  
+
+What is known by the exiled and other people who has bening able to scape from them, though, is the Sultari have blended their blood with teh tieflings and humans of the region, creating a new race of descendants for their armies.\n \n 
+Prure-Blood humans and other races who remained in the the region to fight against them, have been slaved, serving as militia and workforce to rebuild the old cities of the empire.This way the Sultari and their High Tieflings integrate the higher strate of the social pyramid.\n \n  
+
+The realm is powerful and rich due the vast resources of the region, being practically a self sustainable nation. This explians the quick grown of their militar forces in the recent years.\n \n  
+
+The explosive expansion of the Sultari has become a threat for the realms across the Sea of Miracles. Currently, a very intense conflictive atmosphere has st among the inhabitants of Amoss. "
+
+	}
+	
+							{
+		"nombre" : "Kult",
+		"imagen" : "City_Token_Zoom",
+		"titulo" : "Kulth: The Arcane Leash",
+		"descripcion" : 
+		
+"The realm of the wizards was founded by a cult of Dragon worshippers, exiled from Ish-kan after its foundation.\n \n 
+
+The members of "The Circle", rule with iron fist upon their society in the isle of Kredos, studying the deep and dark secrets of the Arcanum, while the realm's fortresses protect the frontiers of their territory.\n \n  
+
+The realm is very rich in knowledge, tradition and science. It keeps deep relationship the rest of the realms of the Blackiron coast, whom see them as dangerous but necessary erudites and advisors in matters related to the arcane sciences.\n \n  
+
+Despite their lack of a large and imponnet army, as Veross or Talos, their sages are highly respected, acting as consultants for noble houses and aristocrats around the globe.\n \n 
+
+Regarding the Kulth lifestyle , the society in the isle is very reserved and conservative. Living around the fishing, mining and small agriculture. Kulthians are very religious, believen in the The Nine. No church is allowed in the Kulthians cities and town. Also any form of education is prohibited. The mages maintains their population as ignorant as possible to avoid any social agitation. In exchange, they provide a very high quality of life for them compared with other nations. This is mainly the reasn why Kulthians are very loyal to their rulers, prefering to keep away of the aberrations and troubled issues of the modern world. "
+
 	}
 ]
