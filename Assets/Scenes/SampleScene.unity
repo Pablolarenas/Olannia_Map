@@ -149,7 +149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -236.00002, y: -3.2000427}
+  m_AnchoredPosition: {x: -236.00002, y: -3.1999817}
   m_SizeDelta: {x: 450, y: 26}
   m_Pivot: {x: 0, y: 0.99}
 --- !u!1 &104528401
@@ -1352,7 +1352,7 @@ MonoBehaviour:
   Title: {fileID: 1144481366}
   description: {fileID: 1253171373}
   textContainer: {fileID: 1385879698}
-  ButtonObject: {fileID: 0}
+  ButtonObject: {fileID: 690215171}
 --- !u!1 &365636703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1673,7 @@ GameObject:
   - component: {fileID: 508238665}
   - component: {fileID: 508238664}
   - component: {fileID: 508238663}
+  - component: {fileID: 508238667}
   m_Layer: 5
   m_Name: Talos
   m_TagString: Untagged
@@ -1739,8 +1740,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &508238665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1777,6 +1778,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 508238661}
   m_CullTransparentMesh: 0
+--- !u!114 &508238667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 508238661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &511688521
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,6 +2038,7 @@ GameObject:
   - component: {fileID: 604007791}
   - component: {fileID: 604007790}
   - component: {fileID: 604007789}
+  - component: {fileID: 604007793}
   m_Layer: 5
   m_Name: Zav_Azur
   m_TagString: Untagged
@@ -2091,8 +2105,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &604007791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2129,6 +2143,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 604007787}
   m_CullTransparentMesh: 0
+--- !u!114 &604007793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 604007787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &613139301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2243,6 +2269,7 @@ GameObject:
   - component: {fileID: 659169444}
   - component: {fileID: 659169446}
   - component: {fileID: 659169447}
+  - component: {fileID: 659169448}
   m_Layer: 0
   m_Name: MapController
   m_TagString: Untagged
@@ -2316,6 +2343,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enfermedadMaxima: {fileID: 4900000, guid: a9272631d36659e4990b87bb95082edc, type: 3}
+--- !u!114 &659169448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 659169443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b6aec07a68a7041bcec107d5c227f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAudios:
+  - AudioType: 0
+    Audio: {fileID: 8300000, guid: 853da9f1e0afedb42b990e0aa14e39ab, type: 3}
 --- !u!1 &690215171
 GameObject:
   m_ObjectHideFlags: 0
@@ -2486,6 +2527,7 @@ GameObject:
   - component: {fileID: 734312012}
   - component: {fileID: 734312011}
   - component: {fileID: 734312010}
+  - component: {fileID: 734312014}
   m_Layer: 5
   m_Name: Castobelo
   m_TagString: Untagged
@@ -2552,8 +2594,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &734312012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2590,6 +2632,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 734312008}
   m_CullTransparentMesh: 0
+--- !u!114 &734312014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 734312008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &772015372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,6 +2657,7 @@ GameObject:
   - component: {fileID: 772015376}
   - component: {fileID: 772015375}
   - component: {fileID: 772015374}
+  - component: {fileID: 772015378}
   m_Layer: 5
   m_Name: Ishkan
   m_TagString: Untagged
@@ -2669,8 +2724,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &772015376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2707,6 +2762,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 772015372}
   m_CullTransparentMesh: 0
+--- !u!114 &772015378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 772015372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &777382024
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,6 +2787,7 @@ GameObject:
   - component: {fileID: 777382028}
   - component: {fileID: 777382027}
   - component: {fileID: 777382026}
+  - component: {fileID: 777382030}
   m_Layer: 5
   m_Name: Fharla
   m_TagString: Untagged
@@ -2786,8 +2854,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &777382028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2824,6 +2892,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 777382024}
   m_CullTransparentMesh: 0
+--- !u!114 &777382030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 777382024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &829505372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,7 +2938,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 225, y: -7.727233}
-  m_SizeDelta: {x: 450, y: 17.85795}
+  m_SizeDelta: {x: 450, y: 16.286137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829505374
 MonoBehaviour:
@@ -3316,6 +3396,7 @@ GameObject:
   - component: {fileID: 940121091}
   - component: {fileID: 940121090}
   - component: {fileID: 940121089}
+  - component: {fileID: 940121093}
   m_Layer: 5
   m_Name: Delvos
   m_TagString: Untagged
@@ -3382,8 +3463,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &940121091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3420,6 +3501,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 940121087}
   m_CullTransparentMesh: 0
+--- !u!114 &940121093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 940121087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &960286171
 GameObject:
   m_ObjectHideFlags: 0
@@ -3509,7 +3602,7 @@ MonoBehaviour:
   Title: {fileID: 2106168991}
   description: {fileID: 829505375}
   textContainer: {fileID: 59803567}
-  ButtonObject: {fileID: 0}
+  ButtonObject: {fileID: 1174227977}
 --- !u!1 &974231005
 GameObject:
   m_ObjectHideFlags: 0
@@ -4199,6 +4292,7 @@ GameObject:
   - component: {fileID: 1227024377}
   - component: {fileID: 1227024376}
   - component: {fileID: 1227024375}
+  - component: {fileID: 1227024379}
   m_Layer: 5
   m_Name: Grand_Archipelago
   m_TagString: Untagged
@@ -4265,8 +4359,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &1227024377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4303,6 +4397,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1227024373}
   m_CullTransparentMesh: 0
+--- !u!114 &1227024379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1227024373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &1228746860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4412,7 +4518,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 225, y: -7.727233}
-  m_SizeDelta: {x: 450, y: 17.85795}
+  m_SizeDelta: {x: 450, y: 16.286137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253171373
 MonoBehaviour:
@@ -4706,6 +4812,7 @@ GameObject:
   - component: {fileID: 1314438089}
   - component: {fileID: 1314438088}
   - component: {fileID: 1314438087}
+  - component: {fileID: 1314438091}
   m_Layer: 5
   m_Name: Kulth
   m_TagString: Untagged
@@ -4772,8 +4879,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &1314438089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4810,6 +4917,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1314438085}
   m_CullTransparentMesh: 0
+--- !u!114 &1314438091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1314438085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &1347844880
 GameObject:
   m_ObjectHideFlags: 0
@@ -4898,6 +5017,7 @@ GameObject:
   - component: {fileID: 1348657600}
   - component: {fileID: 1348657599}
   - component: {fileID: 1348657598}
+  - component: {fileID: 1348657602}
   m_Layer: 5
   m_Name: Rion_Island
   m_TagString: Untagged
@@ -4964,8 +5084,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &1348657600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5002,6 +5122,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1348657596}
   m_CullTransparentMesh: 0
+--- !u!114 &1348657602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1348657596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1001 &1349376331
 Prefab:
   m_ObjectHideFlags: 0
@@ -5416,6 +5548,16 @@ Prefab:
       propertyPath: MapOverlay.Array.data[2]
       value: 
       objectReference: {fileID: 1002054420}
+    - target: {fileID: 82984624994332518, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 82984624994332518, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: Priority
+      value: 83
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ec72964c004e4c4d95b656cb2a9c6fa, type: 2}
   m_IsPrefabAsset: 0
@@ -5519,7 +5661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -236.00002, y: -3.2000332}
+  m_AnchoredPosition: {x: -236.00002, y: -3.1999874}
   m_SizeDelta: {x: 450, y: 26}
   m_Pivot: {x: 0, y: 0.99}
 --- !u!1 &1386942399
@@ -5912,6 +6054,7 @@ GameObject:
   - component: {fileID: 1604875204}
   - component: {fileID: 1604875203}
   - component: {fileID: 1604875202}
+  - component: {fileID: 1604875206}
   m_Layer: 5
   m_Name: Ramneshkan
   m_TagString: Untagged
@@ -5978,8 +6121,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &1604875204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6016,6 +6159,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1604875200}
   m_CullTransparentMesh: 0
+--- !u!114 &1604875206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1604875200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &1614280300
 GameObject:
   m_ObjectHideFlags: 0
@@ -6132,6 +6287,7 @@ GameObject:
   - component: {fileID: 1616435080}
   - component: {fileID: 1616435079}
   - component: {fileID: 1616435078}
+  - component: {fileID: 1616435082}
   m_Layer: 5
   m_Name: Evereth
   m_TagString: Untagged
@@ -6198,8 +6354,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &1616435080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6236,6 +6392,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1616435076}
   m_CullTransparentMesh: 0
+--- !u!114 &1616435082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1616435076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &1645497868
 GameObject:
   m_ObjectHideFlags: 0
@@ -6249,6 +6417,7 @@ GameObject:
   - component: {fileID: 1645497872}
   - component: {fileID: 1645497871}
   - component: {fileID: 1645497870}
+  - component: {fileID: 1645497874}
   m_Layer: 5
   m_Name: Arannia
   m_TagString: Untagged
@@ -6315,8 +6484,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &1645497872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6353,6 +6522,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1645497868}
   m_CullTransparentMesh: 0
+--- !u!114 &1645497874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645497868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &1645658813 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1685775705823592, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
@@ -6991,6 +7172,7 @@ GameObject:
   - component: {fileID: 1855998706}
   - component: {fileID: 1855998705}
   - component: {fileID: 1855998704}
+  - component: {fileID: 1855998708}
   m_Layer: 5
   m_Name: FreeKingdoms
   m_TagString: Untagged
@@ -7057,8 +7239,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &1855998706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7095,6 +7277,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1855998702}
   m_CullTransparentMesh: 0
+--- !u!114 &1855998708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1855998702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &1866554784
 GameObject:
   m_ObjectHideFlags: 0
@@ -7342,6 +7536,7 @@ GameObject:
   - component: {fileID: 1917901023}
   - component: {fileID: 1917901022}
   - component: {fileID: 1917901021}
+  - component: {fileID: 1917901025}
   m_Layer: 5
   m_Name: Ramdyr
   m_TagString: Untagged
@@ -7408,8 +7603,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &1917901023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7446,6 +7641,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1917901019}
   m_CullTransparentMesh: 0
+--- !u!114 &1917901025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1917901019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &1993452825
 GameObject:
   m_ObjectHideFlags: 0
@@ -7695,6 +7902,7 @@ GameObject:
   - component: {fileID: 2087886400}
   - component: {fileID: 2087886399}
   - component: {fileID: 2087886398}
+  - component: {fileID: 2087886402}
   m_Layer: 5
   m_Name: Veross
   m_TagString: Untagged
@@ -7761,8 +7969,8 @@ MonoBehaviour:
   changeLOD: 65
   openMap: {fileID: 2056463066}
   mapReference: {fileID: 1911831481}
-  isButtonNeeded: 1
-  hasTooltip: 1
+  isButtonNeeded: 0
+  hasTooltip: 0
 --- !u!114 &2087886400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7799,6 +8007,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2087886396}
   m_CullTransparentMesh: 0
+--- !u!114 &2087886402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2087886396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bd1d980fed8574db38a900c3a127b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioToPlay: 0
 --- !u!1 &2106168989
 GameObject:
   m_ObjectHideFlags: 0

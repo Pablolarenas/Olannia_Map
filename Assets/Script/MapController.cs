@@ -156,7 +156,7 @@ public class MapController : MonoBehaviour
         rightPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
         rightPanel.GetComponent<PanelController>().Title.text = instance.Title;
         rightPanel.GetComponent<PanelController>().SetDescription(instance.Description);
-        leftPanel.GetComponent<PanelController>().ButtonObject.SetActive(isButtonNeeded);
+        rightPanel.GetComponent<PanelController>().ButtonObject.SetActive(isButtonNeeded);
         this.from = from;
         this.to = to;
     }
