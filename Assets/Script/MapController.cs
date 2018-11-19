@@ -38,6 +38,7 @@ public class PlayerToken
 public class MapController : MonoBehaviour
 {
     [SerializeField] private PlayableDirector transitionAnimation;
+    [SerializeField] private UserInterfaceController userInterfaceController;
     [SerializeField] private GameObject eventSystem;
     [SerializeField] private List<GameObject> listOfPlayers;
     [SerializeField] private List<MapScrollRect> listOfMapScrollRect;
@@ -73,6 +74,7 @@ public class MapController : MonoBehaviour
         {
             StopCoroutine(transition);
         }
+        userInterfaceController.SetDropdown(to.GetComponent<MapOption>().MapOverlay);
         transition = StartCoroutine(TransitionCoroutine(from, to));
     }
 

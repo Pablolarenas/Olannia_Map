@@ -16,6 +16,7 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     [SerializeField] private GameObject openMap;
     [SerializeField] private GameObject mapReference;
     [SerializeField] private bool isButtonNeeded = true;
+    [SerializeField] private bool hasTooltip = true;
     private MapController mapController;
     private float changeLODValue;
     private float timeToSpawn;
@@ -45,6 +46,7 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if (!hasTooltip) return;
         isHovering = true;
     }
 

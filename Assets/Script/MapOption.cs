@@ -6,7 +6,7 @@ public class MapOption : MonoBehaviour
 {
     public float minZoom = 1;
     public float maxZoom = 1;
-    [SerializeField] private GameObject mapOverlay;
+    public List<GameObject> MapOverlay;
     [SerializeField] private GameObject mapOverlayFar;
     [SerializeField] private GameObject mapOverlayClose;
     [SerializeField] private float changeLOD = 40;
@@ -16,6 +16,11 @@ public class MapOption : MonoBehaviour
 
     private void Awake()
     {
+        if(gameObject.name == "World_Map")
+        {
+            FindObjectOfType<UserInterfaceController>().SetDropdown(MapOverlay);
+        }
+
         Debug.Log(maxZoom + "-" + minZoom);
         changeLODValue = (maxZoom - minZoom) * (changeLOD / 100f);
     }
@@ -23,7 +28,7 @@ public class MapOption : MonoBehaviour
     public void ToggleMapOverlay()
     {
         isMapOverlayActive = !isMapOverlayActive;
-        mapOverlay.SetActive(isMapOverlayActive);
+        //mapOverlay.SetActive(isMapOverlayActive);
     }
 
     private void Update()
