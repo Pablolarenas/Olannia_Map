@@ -133,7 +133,7 @@ public class MapController : MonoBehaviour
         currentPlayerIndex = 0;
     }
 
-    public void SpawnLeftPanel(string cityName, GameObject from, GameObject to)
+    public void SpawnLeftPanel(string cityName, GameObject from, GameObject to, bool isButtonNeeded = true)
     {
         InstanceContent instance = contentManager.GetContentInstance(cityName);
         rightPanel.SetActive(false);
@@ -141,11 +141,12 @@ public class MapController : MonoBehaviour
         leftPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/"+ instance.Image);
         leftPanel.GetComponent<PanelController>().Title.text = instance.Title;
         leftPanel.GetComponent<PanelController>().SetDescription(instance.Description);
+        leftPanel.GetComponent<PanelController>().ButtonObject.SetActive(isButtonNeeded);
         this.from = from;
         this.to = to;
     }
 
-    public void SpawnRightPanel(string cityName, GameObject from, GameObject to)
+    public void SpawnRightPanel(string cityName, GameObject from, GameObject to, bool isButtonNeeded = true)
     {
         InstanceContent instance = contentManager.GetContentInstance(cityName);
         leftPanel.SetActive(false);
@@ -153,6 +154,7 @@ public class MapController : MonoBehaviour
         rightPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
         rightPanel.GetComponent<PanelController>().Title.text = instance.Title;
         rightPanel.GetComponent<PanelController>().SetDescription(instance.Description);
+        leftPanel.GetComponent<PanelController>().ButtonObject.SetActive(isButtonNeeded);
         this.from = from;
         this.to = to;
     }

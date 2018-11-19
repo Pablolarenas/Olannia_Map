@@ -9,6 +9,7 @@ public class PanelController : MonoBehaviour
     public Text Title;
     [SerializeField] private Text description;
     [SerializeField] private RectTransform textContainer;
+    public GameObject ButtonObject;
     private Coroutine adjustSizeCoroutine = null;
 
     public void SetDescription(string description)

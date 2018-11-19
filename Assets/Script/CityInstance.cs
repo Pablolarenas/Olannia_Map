@@ -15,6 +15,7 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     [SerializeField] private float changeLOD = 50;
     [SerializeField] private GameObject openMap;
     [SerializeField] private GameObject mapReference;
+    [SerializeField] private bool isButtonNeeded = true;
     private MapController mapController;
     private float changeLODValue;
     private float timeToSpawn;
@@ -29,11 +30,11 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         if (Screen.width / 2f < Input.mousePosition.x)
         {
-            mapController.SpawnLeftPanel(cityName, mapReference, openMap);
+            mapController.SpawnLeftPanel(cityName, mapReference, openMap, isButtonNeeded);
         }
         else
         {
-            mapController.SpawnRightPanel(cityName, mapReference, openMap);
+            mapController.SpawnRightPanel(cityName, mapReference, openMap, isButtonNeeded);
         }
     }
 
