@@ -149,7 +149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -236.00002, y: -3.1999211}
+  m_AnchoredPosition: {x: -236.00002, y: -3.1999817}
   m_SizeDelta: {x: 450, y: 26}
   m_Pivot: {x: 0, y: 0.99}
 --- !u!1 &104528401
@@ -695,7 +695,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1098806690}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9999999
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1402,7 +1402,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Talos
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -1752,7 +1752,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Zav
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -1997,7 +1997,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &690215172
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2482,7 +2482,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 225, y: -7.727233}
-  m_SizeDelta: {x: 450, y: 15.454466}
+  m_SizeDelta: {x: 450, y: 16.286137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829505374
 MonoBehaviour:
@@ -2518,7 +2518,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -2853,6 +2853,7 @@ GameObject:
   - component: {fileID: 933235593}
   - component: {fileID: 933235595}
   - component: {fileID: 933235594}
+  - component: {fileID: 933235596}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2912,6 +2913,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 933235592}
   m_CullTransparentMesh: 0
+--- !u!114 &933235596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 933235592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &940121087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2984,7 +2999,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Ish-Khan
+  cityName: Delvos
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -3548,7 +3563,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1174227978
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3668,7 +3683,7 @@ GameObject:
   - component: {fileID: 1227024376}
   - component: {fileID: 1227024375}
   m_Layer: 5
-  m_Name: Great_Archipelago
+  m_Name: Grand_Archipelago
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3726,7 +3741,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Archipelago
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -3878,7 +3893,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 225, y: -7.727233}
-  m_SizeDelta: {x: 450, y: 15.454466}
+  m_SizeDelta: {x: 450, y: 16.286137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253171373
 MonoBehaviour:
@@ -3901,7 +3916,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -4005,7 +4020,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: sangre
+  cityName: Ram
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -4195,7 +4210,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Kult
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -4385,7 +4400,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Rion
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -4751,7 +4766,7 @@ Prefab:
     - target: {fileID: 114947680353576978, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
         type: 2}
       propertyPath: cityName
-      value: Caca
+      value: Ram
       objectReference: {fileID: 0}
     - target: {fileID: 224287424965665378, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
         type: 2}
@@ -4910,7 +4925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -236.00002, y: -3.2000175}
+  m_AnchoredPosition: {x: -236.00002, y: -3.1999722}
   m_SizeDelta: {x: 450, y: 26}
   m_Pivot: {x: 0, y: 0.99}
 --- !u!1 &1386942399
@@ -5218,7 +5233,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Ram
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -5436,7 +5451,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Evereth
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -5718,6 +5733,7 @@ GameObject:
   - component: {fileID: 1705180074}
   - component: {fileID: 1705180076}
   - component: {fileID: 1705180075}
+  - component: {fileID: 1705180077}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -5777,6 +5793,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1705180073}
   m_CullTransparentMesh: 0
+--- !u!114 &1705180077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705180073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1762394750
 GameObject:
   m_ObjectHideFlags: 0
@@ -5863,7 +5893,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a12546b352fa1cc4490e2a5bd010076e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5951,7 +5981,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Free
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -6300,7 +6330,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Ramdyr
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
@@ -6651,7 +6681,7 @@ MonoBehaviour:
     Image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     ShortDescription: Erimbul
     LongDescription: 
-  cityName: Caca
+  cityName: Veross
   toolTip: {fileID: 1067062239936436, guid: 6850db6602918f94b8dbd46ab1686222, type: 2}
   LODFarSprite: {fileID: 21300000, guid: dbe6c23f1a7025649874036a0204d811, type: 3}
   LODCloseSprite: {fileID: 21300000, guid: bba63a2ee49ad724cb1bc5866f59d705, type: 3}
