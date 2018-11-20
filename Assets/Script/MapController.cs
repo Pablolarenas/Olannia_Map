@@ -74,7 +74,6 @@ public class MapController : MonoBehaviour
         {
             StopCoroutine(transition);
         }
-        userInterfaceController.SetDropdown(to.GetComponent<MapOption>().MapOverlay);
         transition = StartCoroutine(TransitionCoroutine(from, to));
     }
 
@@ -89,7 +88,7 @@ public class MapController : MonoBehaviour
         eventSystem.SetActive(true);
     }
 
-    private void SetBackButton(GameObject from,GameObject to)
+    private void SetBackButton(GameObject from, GameObject to)
     {
         previousMap = from;
         currentMap = to;
@@ -123,7 +122,7 @@ public class MapController : MonoBehaviour
         {
             try
             {
-                DestroyImmediate(token,true);
+                DestroyImmediate(token, true);
             }
             catch (Exception)
             {
@@ -140,7 +139,7 @@ public class MapController : MonoBehaviour
         InstanceContent instance = contentManager.GetContentInstance(cityName);
         rightPanel.SetActive(false);
         leftPanel.SetActive(true);
-        leftPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/"+ instance.Image);
+        leftPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
         leftPanel.GetComponent<PanelController>().Title.text = instance.Title;
         leftPanel.GetComponent<PanelController>().SetDescription(instance.Description);
         leftPanel.GetComponent<PanelController>().ButtonObject.SetActive(isButtonNeeded);

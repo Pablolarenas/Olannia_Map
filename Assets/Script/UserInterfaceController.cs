@@ -11,12 +11,12 @@ public class UserInterfaceController : MonoBehaviour
     private AudioSource[] listOfAudio;
     private bool muteAudios = false;
 
-	void Awake ()
+    void Awake()
     {
         listOfAudio = mapReference.GetComponentsInChildren<AudioSource>(true);
     }
 
-	public void MuteAudio()
+    public void MuteAudio()
     {
         muteAudios = !muteAudios;
         foreach (AudioSource item in listOfAudio)
@@ -28,22 +28,24 @@ public class UserInterfaceController : MonoBehaviour
     public void SetDropdown(List<GameObject> listOfOverlay)
     {
         if (listOfOverlay.Count == 0) return;
-        
+
         this.listOfOverlay = listOfOverlay;
         overlayDropdown.ClearOptions();
 
         List<string> listOfNames = new List<string>();
+        listOfNames.Add("None");
         foreach (GameObject item in listOfOverlay)
         {
             listOfNames.Add(item.name);
         }
 
         overlayDropdown.AddOptions(listOfNames);
+        overlayDropdown.value = 0;
     }
 
     public void DeactivateAllOverlays()
     {
-        if(listOfOverlay != null && listOfOverlay.Count !=0)
+        if (listOfOverlay != null && listOfOverlay.Count != 0)
         {
             foreach (GameObject item in listOfOverlay)
             {
@@ -55,7 +57,15 @@ public class UserInterfaceController : MonoBehaviour
     public void ActivateOverlay()
     {
         DeactivateAllOverlays();
-        listOfOverlay[overlayDropdown.value].SetActive(true);
+        int value = overlayDropdown.value - 1;
+        if (value == -1)
+        {
+            DeactivateAllOverlays();
+        }
+        else
+        {
+            listOfOverlay[value].SetActive(true);
+        }
     }
 
 }
