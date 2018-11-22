@@ -7,6 +7,7 @@ public class UserInterfaceController : MonoBehaviour
 {
     [SerializeField] private GameObject mapReference;
     [SerializeField] private Dropdown overlayDropdown;
+    [SerializeField] private GameObject timeLine;
     private List<GameObject> listOfOverlay;
     private AudioSource[] listOfAudio;
     private bool muteAudios = false;
@@ -28,6 +29,8 @@ public class UserInterfaceController : MonoBehaviour
     public void SetDropdown(List<GameObject> listOfOverlay)
     {
         if (listOfOverlay.Count == 0) return;
+
+        DeactivateAllOverlays();
 
         this.listOfOverlay = listOfOverlay;
         overlayDropdown.ClearOptions();
@@ -66,6 +69,11 @@ public class UserInterfaceController : MonoBehaviour
         {
             listOfOverlay[value].SetActive(true);
         }
+    }
+
+    public void ToggleTimeLine()
+    {
+        timeLine.SetActive(!timeLine.activeSelf);
     }
 
 }
