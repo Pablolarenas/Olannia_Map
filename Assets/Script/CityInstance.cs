@@ -17,6 +17,7 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     [SerializeField] private GameObject mapReference;
     [SerializeField] private bool isButtonNeeded = true;
     [SerializeField] private bool hasTooltip = true;
+    [SerializeField] private bool isTimeLine = false;
     private MapController mapController;
     private float changeLODValue;
     private float timeToSpawn;
@@ -66,7 +67,11 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         mapController = FindObjectOfType<MapController>();
         eventImage = GetComponent<Image>();
         timeToSpawn = mapController.TimeToSpawn;
-        changeLODValue = (mapReference.GetComponent<MapOption>().maxZoom - mapReference.GetComponent<MapOption>().minZoom) * (changeLOD / 100f);
+
+        if(!isTimeLine)
+        {
+            changeLODValue = (mapReference.GetComponent<MapOption>().maxZoom - mapReference.GetComponent<MapOption>().minZoom) * (changeLOD / 100f);
+        }
         isInit = true;
 	}
 	
@@ -85,7 +90,9 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             currentTimeHovering += Time.deltaTime;
         }
 
-        if (mapOption.ScaleReference.localScale.x > changeLODValue)
+        if (isTimeLine) return;
+
+            if (mapOption.ScaleReference.localScale.x > changeLODValue)
         {
             eventImage.sprite = LODCloseSprite;
             //eventImage.SetNativeSize();
