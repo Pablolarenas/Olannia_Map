@@ -213,4 +213,109 @@ Despite their lack of a large and imponnet army, as Veross or Talos, their sages
 Regarding the Kulth lifestyle , the society in the isle is very reserved and conservative. Living around the fishing, mining and small agriculture. Kulthians are very religious, believen in the The Nine. No church is allowed in the Kulthians cities and town. Also any form of education is prohibited. The mages maintains their population as ignorant as possible to avoid any social agitation. In exchange, they provide a very high quality of life for them compared with other nations. This is mainly the reasn why Kulthians are very loyal to their rulers, prefering to keep away of the aberrations and troubled issues of the modern world. "
 
 	}
+	
+								{
+		"nombre" : "Farla",
+		"imagen" : "Far",
+		"titulo" : "Fharla, The Cursed Kingdom",
+		"descripcion" : 
+		
+"Almost 2000 years ago, humans from the west, crossed the Sea of Miracles and populated the lost Sultarian ruins in the Plague Vale, ironically a very rich land blessed by the Faltyr Sierra. The human clans founded the realm of Farla over the Sultarian ruins, without knowing the story of their predecessors.\n \n 
+
+After the Sultari's reborn, 20 years ago, Farla has being involved in a intense war with Zav-Azur. Supported by their allies in the Blackiron Coast and Ish-kan, they have resisted the powerful Zavarian army. Despite this, the kingdom is living very critical times, being far away from his glorified past , as one of the most richer and prosper kingdoms, famous for their engineering and alchemical technology.\n \n
+
+Along with Zav-Azur, Arannia and the Great Archipelago, Fharla concentrates the highest population of tieflings in the world, being active participants of several levels of their society."
+
+	}
+	
+								{
+		"nombre" : "Castobelo",
+		"imagen" : "Kul",
+		"titulo" : "Castobelo, the new frontier",
+		"descripcion" : 
+		
+"castobello"
+
+	}
+	
+									{
+		"nombre" : "Arannia",
+		"imagen" : "Kul",
+		"titulo" : "Arannia, the dishonored realm",
+		"descripcion" : 
+		
+"arania caca mojada"
+
+	}
+	
+	
+										{
+		"nombre" : "First_Age",
+		"imagen" : "Kul",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+										{
+		"nombre" : "Sultari_Age",
+		"imagen" : "Kul",
+		"titulo" : "The Age of the Fallen",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+										{
+		"nombre" : "Portal_Age",
+		"imagen" : "Kul",
+		"titulo" : "The Age of Chaos",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+										{
+		"nombre" : "Golden_Age",
+		"imagen" : "Kul",
+		"titulo" : "The Great Realms",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+										{
+		"nombre" : "Draconic_Age",
+		"imagen" : "Kul",
+		"titulo" : "The Dragonlords Tiranny",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+										{
+		"nombre" : "Iron_Age",
+		"imagen" : "Kul",
+		"titulo" : "The Age of Men",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+									{
+		"nombre" : "The_Primordials",
+		"imagen" : "Kul",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+	}
 ]
