@@ -1619,6 +1619,7 @@ MonoBehaviour:
   Title: {fileID: 1144481366}
   description: {fileID: 1253171373}
   textContainer: {fileID: 1385879698}
+  scrollRect: {fileID: 613139305}
   ButtonObject: {fileID: 690215171}
 --- !u!1 &365636703
 GameObject:
@@ -3144,7 +3145,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 5
   m_Viewport: {fileID: 511688522}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1002451396}
@@ -4912,6 +4913,7 @@ MonoBehaviour:
   Title: {fileID: 2106168991}
   description: {fileID: 829505375}
   textContainer: {fileID: 59803567}
+  scrollRect: {fileID: 1614280304}
   ButtonObject: {fileID: 1174227977}
 --- !u!1 &974231005
 GameObject:
@@ -8197,7 +8199,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 5
   m_Viewport: {fileID: 1386942400}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 302253405}

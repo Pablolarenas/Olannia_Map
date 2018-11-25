@@ -6,7 +6,17 @@
 		"descripcion" : 
 		
 		
-"Located east of the Exile, in the desert of Anarkhan, Ishkan is found; one of the most ancient and culturally relevant kingdoms of all Olannia, the heirs of the arcane sciences, developed by the draconic monarchs of the Kalamavaar empire. The kingdom was founded on the ruins of the legendary city of Ivelyn, at the hands of King Aasimar: Eran Azavilu, leader of the liberation forces during the war against dragons.\n \n
+"
+<b><color=#560000>•Foundation:</color></b> Portal Age.\n
+<b><color=#560000>•Government:</color></b> Monarchy.\n
+<b><color=#560000>•Capital:</color></b> Ivelyn.\n
+<b><color=#560000>•Races:</color></b> Humans 60%, Dwarves 20%, Other 20%\n
+<b><color=#560000>•Population:</color></b> 600.000 hab.\n
+<b><color=#560000>•Special:</color></b> Magic is restricted to public use.\n
+<b><color=#560000>•Alliances:</color></b> Silverfire Alliance, Blazing Coast Commerce Alliance, Castobelo.\n
+<b><color=#560000>•Rivalities:</color></b> Silverfire Alliance, Blazing Coast Commerce Alliance, Castobelo.\n 
+<b><color=#560000>•Nickname:</color></b>Sandfolk.\n\n
+Located east of the Exile, in the desert of Anarkhan, Ishkan is found; one of the most ancient and culturally relevant kingdoms of all Olannia, the heirs of the arcane sciences, developed by the draconic monarchs of the Kalamavaar empire. The kingdom was founded on the ruins of the legendary city of Ivelyn, at the hands of King Aasimar: Eran Azavilu, leader of the liberation forces during the war against dragons.\n \n
 
 The cultural legacy of Ish-kan transcends its limits. The kingdom has been the cradle of the development of science, religion and commerce from the Golden Age. The Ishkan culture is considered by many to be the mother of the modern kingdoms of Amoss. Additionally, it is the main port of departure for the hundreds of expeditions beyond the Igneous Sea of ​​Solaria to the indomitable continent of Zera.\n \n
 
@@ -14,9 +24,7 @@ Ishkhan is a monarchy, which rules next to the Council of Magi from the tower of
 
 Ishkan society revolves around local agriculture, the spice trade and mining. The spiritual life is a cornerstone in their culture. The Ishkans pray both light and shadows, being one of the few places in the world where the churches of gods of death are allowed and respected. Ishlans are very proud of their legacy and longevity as a molitary and culturaly potence along history. Pride and misticism are two distinctive qualities of parangons from these lands.\n \n
 
-The humans and dwarves in the area have dark hair and black eyes *. Humans tend to measure less than the average, in addition to having a thinner biotype.
-"
-
+The humans and dwarves in the area have dark hair and black eyes *. Humans tend to measure less than the average, in addition to having a thinner biotype."
 	},
 	{
 		"nombre" : "Evereth",
@@ -25,7 +33,18 @@ The humans and dwarves in the area have dark hair and black eyes *. Humans tend 
 		"descripcion" : 
 		
 		
-"At the heart of the Cloudy Mountains is Evereth, composed of several fortress-cities between millennia and dense forests and ice fields. Each citadel is governed by a member of the extended and ancient Leadheart family, an airtight house that claims direct descendants of The Primals, which traveled from the Great Plateau (now the area known as The Exile) to the high mountains, then of the fall of the Sultari Empire. It is said that a curse was imposed on this caste as punishment for its bloody invasion, which led to the massacre of several tribes in the area. It is said that dementia and anger run in the veins of its members, who rarely leave their castles.\n \n
+"
+<b><color=#560000>•Foundation:</color></b> Golden Age.\n
+<b><color=#560000>•Government:</color></b> Monarchy.\n
+<b><color=#560000>•Capital:</color></b> Ebronhold.\n
+<b><color=#560000>•Races:</color></b> Humans 70%, Dwarves 20%, Other 10%\n
+<b><color=#560000>•Population:</color></b> 90.000 hab.\n
+<b><color=#560000>•Special:</color></b> Arcane magic is distrusted.\n
+<b><color=#560000>•Alliances:</color></b> Silverfire Alliance.\n
+<b><color=#560000>•Rivalities:</color></b> None.\n
+<b><color=#560000>•Nickname:</color></b> Northerns.\n\n
+
+At the heart of the Cloudy Mountains is Evereth, composed of several fortress-cities between millennia and dense forests and ice fields. Each citadel is governed by a member of the extended and ancient Leadheart family, an airtight house that claims direct descendants of The Primals, which traveled from the Great Plateau (now the area known as The Exile) to the high mountains, then of the fall of the Sultari Empire. It is said that a curse was imposed on this caste as punishment for its bloody invasion, which led to the massacre of several tribes in the area. It is said that dementia and anger run in the veins of its members, who rarely leave their castles.\n \n
 
 Despite its isolated position on the globe, the kingdom actively trades with the rest of the nations of Amoss and Kerak, mainly with the Free Kingdoms and Veross.The kingdom has numerous iron deposits, which they export to their neighbors, being one of the largest producers in the north of the continent.\n \n
 
@@ -42,7 +61,17 @@ The humans and dwarves in the area have light hair (blond and reddish tones) and
 		"titulo" : "Veross: The Holy Sword",
 		"descripcion" : 
 		
-"The crusader’s nation, self-claimed the true herit of Yawynia, the old city of the Shield Dragons during the Golden Age, is has been rised in the vast northern valleys to the north of The Thunder.  The republic, founded over the ruins of the old empire, gazes the constant expansion of the realm along Amoss. The crusade: to purify the earth from the darkness unleashed during the Portal Wars and redeem the human kind.\n \n
+"
+<b><color=#560000>•Foundation:</color></b> Iron Age.\n
+<b><color=#560000>•Government:</color></b> Clerocracy/Republic.\n
+<b><color=#560000>•Capital:</color></b> Palander.\n
+<b><color=#560000>•Races:</color></b> Humans 90%, Dwarves 9%, Other:1%\n
+<b><color=#560000>•Population:</color></b> 400.000 hab.\n
+<b><color=#560000>•Special:</color></b> Arcane Magic is prohibited.\n
+<b><color=#560000>•Alliances:</color></b> None.\n
+<b><color=#560000>•Rivalities:</color></b> Ish-Khan, Kulth, Ramneshkan, Zav-Azur, Arannia.\n
+<b><color=#560000>•Nickname:</color></b> Paladins.\n\n
+The crusader’s nation, self-claimed the true herit of Yawynia, the old city of the Shield Dragons during the Golden Age, is has been rised in the vast northern valleys to the north of The Thunder.  The republic, founded over the ruins of the old empire, gazes the constant expansion of the realm along Amoss. The crusade: to purify the earth from the darkness unleashed during the Portal Wars and redeem the human kind.\n \n
 
 The Verossians are active detractors of the arcane sciences, believing that those practices are a violation of Hellos sacred rules, responsible of provoking their wrath in the past. Instead, they defend and promote the words of the gods of light, particularly of Serveus, god of Justice, the main patron of the Shining Sword, the Imperial military order.\n \n 
 
@@ -59,7 +88,18 @@ Verossians are particulary, despotic, racist and distrust of foreign cultures an
 		"titulo" : "The Free Kingdoms of the Blazing Coast",
 		"descripcion" : 
 		
-"A confederation of rich families from Ishkhan and the middle lands, allies and rivals at the same time, the brother kingdoms, as common folks ussually refer to, are a nation of calculator, pragmatic and materialist nobles which doesn’t believe in gods or moral codes, being devotes of the power of gold and politics, as the real forces which controls the human destiny.\n \n 
+"
+<b><color=#560000>•Foundation:</color></b> Iron Age.\n
+<b><color=#560000>•Government:</color></b> Feudalism.\n
+<b><color=#560000>•Capital:</color></b> None.\n
+<b><color=#560000>•Races:</color></b> Humans 60%, Dwarves 20%, Other 20%\n
+<b><color=#560000>•Population:</color></b> 100.000 hab.\n
+<b><color=#560000>•Special:</color></b> None.\n
+<b><color=#560000>•Alliances:</color></b> Blazing Coast Commerce Alliance, Castobelo.\n
+<b><color=#560000>•Rivalities:</color></b> Veross.\n
+<b><color=#560000>•Nickname:</color></b> Traders.\n\n
+
+A confederation of rich families from Ishkhan and the middle lands, allies and rivals at the same time, the brother kingdoms, as common folks ussually refer to, are a nation of calculator, pragmatic and materialist nobles which doesn’t believe in gods or moral codes, being devotes of the power of gold and politics, as the real forces which controls the human destiny.\n \n 
 
 The Free Kingdoms lead the expansion of the known world to the savage continent of Zera, placing their colonies in the Castobello Islands. That's why their cities are very attractive destinations for travellers, adventurers and fortune seekers. However, due the constant conflicts of interest among the feudal families, the nation is particularly attractive for mercenaries and desertors from other realms who are willing for selling their steel for all sort of purpuses.\n \n 
 
@@ -73,7 +113,18 @@ Due its merchant nature, the realm is inhabited by several races. Theres a few c
 		"titulo" : "Delvos: The Bank of the Coast",
 		"descripcion" : 
 		
-"Located in the central area of the Blackiron Coast, lies the kingdom of Delvos; the largest region of the disoluted realm of Kelvor, founded by the former royal family and the noble houses loyal to it.\n \n 
+"
+<b><color=#560000>•Foundation:</color></b> Iron Age.\n
+<b><color=#560000>•Government:</color></b> Feudalism.\n
+<b><color=#560000>•Capital:</color></b> Adatla.\n
+<b><color=#560000>•Races:</color></b> Humans 80%, Dwarves 10%, Other 10%\n
+<b><color=#560000>•Population:</color></b> 150.000 hab.\n
+<b><color=#560000>•Special:</color></b> Magic is restricted to public use.\n
+<b><color=#560000>•Alliances:</color></b> The Three Sword Alliance, Fharla.\n
+<b><color=#560000>•Rivalities:</color></b> Ramneshk, Zav-Azur, Kulth.\n
+<b><color=#560000>•Nickname:</color></b> Coastfolks.\n\n
+
+Located in the central area of the Blackiron Coast, lies the kingdom of Delvos; the largest region of the disoluted realm of Kelvor, founded by the former royal family and the noble houses loyal to it.\n \n 
 
 The kingdom is divided in ten ducats with a central government rled by the Great Archduke, based in its glorious city of Adatla, one of the most modern and prosperous cities in the known world. The realm controls the naval commerce in the Sea of Miracles, acting as a justicar for the rest of the allied nations in the region.\n \n 
 
@@ -93,7 +144,18 @@ The nation is famous for its technological development, particulary in the field
 		"titulo" : "Talos: Protectors of the Black Iron Coast",
 		"descripcion" : 
 		
-"Known as "The Tower Realm" and famous for its inexpungable fortresses and strict military tradition, Talos is considered a proud protector of the Blackiron Coast and its inhabitants from the southern tribal menace and the pirate nations.\n \n
+"
+<b><color=#560000>•Foundation:</color></b> Iron Age.\n
+<b><color=#560000>•Government:</color></b> Militocracy.\n
+<b><color=#560000>•Capital:</color></b> Dragonholm.\n
+<b><color=#560000>•Races:</color></b> Humans 60%, Dwarves 20%, Other 20%\n
+<b><color=#560000>•Population:</color></b> 300.000 hab.\n
+<b><color=#560000>•Special:</color></b> Magic is restricted to public use.\n
+<b><color=#560000>•Alliances:</color></b> The Three Sword Alliance, Fharla.\n
+<b><color=#560000>•Rivalities:</color></b> Ramneshk, Zav-Azur, Kulth.\n
+<b><color=#560000>•Nickname:</color></b> Soldiers.\n\n
+
+Known as "The Tower Realm" and famous for its inexpungable fortresses and strict military tradition, Talos is considered a proud protector of the Blackiron Coast and its inhabitants from the southern tribal menace and the pirate nations.\n \n
 
 The realm is composed by a number of forts and castles surrounded by towns and villages. The main authority both politicaly and military is The Council of the Helmets, a honourable group of nine experienced warlord; former generals of the fallen Realm of Kamyr. While, towns and villages are managed by a local military authority.\n \n 
 
@@ -115,7 +177,18 @@ In terms of behaviour, Talonians are usually very pragmatic and sometimes a bit 
 		"titulo" : "Ramdyr: The Realm of the Coin",
 		"descripcion" : 
 		
-"Ramdyr uses its strategic location in the Sea of Miracles as a central, and neutral, gathering zone among merchants from all surrounding realms. Kingdom rich in culture, lore, magic and, above all, trade. Its rates and commerce policies makes Erimbul, its capital, one of the most important destinies for business.\n \n
+"
+<b><color=#560000>•Foundation:</color></b> Iron Age.\n
+<b><color=#560000>•Government:</color></b> Aristocracy.\n
+<b><color=#560000>•Capital:</color></b> Erimbul.\n
+<b><color=#560000>•Races:</color></b> Humans 60%, Dwarves 20%, Other 20%\n
+<b><color=#560000>•Population:</color></b> 100.000 hab.\n
+<b><color=#560000>•Special:</color></b> Magic is restricted to public use.\n
+<b><color=#560000>•Alliances:</color></b> The Three Sword Alliance, Fharla.\n
+<b><color=#560000>•Rivalities:</color></b> None.\n
+<b><color=#560000>•Nickname:</color></b> Coiners.\n\n
+
+Ramdyr uses its strategic location in the Sea of Miracles as a central, and neutral, gathering zone among merchants from all surrounding realms. Kingdom rich in culture, lore, magic and, above all, trade. Its rates and commerce policies makes Erimbul, its capital, one of the most important destinies for business.\n \n
 
 Due its merchant and scholar heritage and cosmopolitan style, Ramdyr is also known as the capitol of the western culture for the aristocracy, gathering important universities and cultural centres among in their cities.\n \n
 
@@ -133,7 +206,19 @@ The kingdom is ruled by the Duke of Erimbul, represented by the Ilberd family, a
 		"titulo" : "The Grand Archipelago",
 		"descripcion" : 
 		
-"This zone gathers a number of allied free cities and towns, which trades all kind of sea related goods and naval technology. The cities are famous for their high-quality goods, its ships and sailors mercenaries. Similarly, the alchemy tradition is one of the attractions for adventurers, studiers and performers of the arcane arts.\n \n
+"
+<b><color=#560000>•Foundation:</color></b> Golden Age.\n
+<b><color=#560000>•Government:</color></b> Condeferation.\n
+<b><color=#560000>•Capital:</color></b> Free City of Narys.\n
+<b><color=#560000>•Races:</color></b> Humans 60%, Dwarves 20%, Other 20%\n
+<b><color=#560000>•Population:</color></b> 400.000 hab.\n
+<b><color=#560000>•Special:</color></b> None.\n
+<b><color=#560000>•Alliances:</color></b> None.\n
+<b><color=#560000>•Rivalities:</color></b> None.\n
+<b><color=#560000>•Nickname:</color></b> Pirates.\n\n
+
+
+This zone gathers a number of allied free cities and towns, which trades all kind of sea related goods and naval technology. The cities are famous for their high-quality goods, its ships and sailors mercenaries. Similarly, the alchemy tradition is one of the attractions for adventurers, studiers and performers of the arcane arts.\n \n
 
 In contrast to Ish-kan, Veross or other secular kingdoms, the Great Archipelago is a safe place for unformal spellcasters and cults, serving as an important refuge for renegades.\n \n
 
@@ -151,7 +236,18 @@ In the las years, the port-city of Narys, has become the most important urban ce
 		"titulo" : "Ramneshkhan: The Marching Rage",
 		"descripcion" : 
 		
-"Founded over ancient forest-folk ruins, the realm of Ramneshkhan is a gangrenous scar located in the southern region of Amoss, at the east of the Endless Greenlands.\n \n
+"
+<b><color=#560000>•Foundation:</color></b> Iron Age.\n
+<b><color=#560000>•Government:</color></b> Autocracy.\n
+<b><color=#560000>•Capital:</color></b> Kashkaral.\n
+<b><color=#560000>•Races:</color></b> Orcs 90%, Half-Orcs 9%, Other 1%\n
+<b><color=#560000>•Population:</color></b> ~800.000 hab.\n
+<b><color=#560000>•Special:</color></b> None.\n
+<b><color=#560000>•Alliances:</color></b> Arannia.\n
+<b><color=#560000>•Rivalities:</color></b> Amoss and Kerak Kingdoms.\n
+<b><color=#560000>•Nickname:</color></b> Orcs.\n\n
+
+Founded over ancient forest-folk ruins, the realm of Ramneshkhan is a gangrenous scar located in the southern region of Amoss, at the east of the Endless Greenlands.\n \n
 
 In a wasted valley of burned trees and mud, countless tribes of beasts from the dark planes were finally dominated by the Blood Clans, after centuries of war. Now, united by the power of the orc lords, their agents invade and steal from other realms and lands, spreading across Amoss as cancer.\n \n
 
@@ -165,7 +261,18 @@ Ramneshk is a threatening war horde, which has learned how to survive among othe
 		"titulo" : "Rion Islands: The Shi-Tar Sanctuary",
 		"descripcion" : 
 		
-"The Shi-Tar culture dates from the Elder days of the Sultarian Empire. Currently, they are the oldest realm in Olannia.However, and despite its logevity, the realm preserves itself as a small nation, neutral to all power conflicts of the younger, keeping its intriguing and ancestral culture mostly intact over the ages.\n \n
+"
+<b><color=#560000>•Foundation:</color></b> Sultari Age.\n
+<b><color=#560000>•Government:</color></b> Gerontocracy.\n
+<b><color=#560000>•Capital:</color></b> Shi-Tar.\n
+<b><color=#560000>•Races:</color></b> Orcs 80%, Other 20%\n
+<b><color=#560000>•Population:</color></b> ~30.000 hab.\n
+<b><color=#560000>•Special:</color></b> None.\n
+<b><color=#560000>•Alliances:</color></b> None.\n
+<b><color=#560000>•Rivalities:</color></b> None.\n
+<b><color=#560000>•Nickname:</color></b> Monks.\n\n
+
+The Shi-Tar culture dates from the Elder days of the Sultarian Empire. Currently, they are the oldest realm in Olannia.However, and despite its logevity, the realm preserves itself as a small nation, neutral to all power conflicts of the younger, keeping its intriguing and ancestral culture mostly intact over the ages.\n \n
 
 The Shi-Tar nation has no army or gargantuan fortresses. The realms is composed by a number of towns in the middle of the jungle and mountains of their islands. The main cities hosts their legendary temples which preserves an exquisite and mysterious cultural legacy and knowledge, related to the studies of martial arts and witchcraft lore.\n \n 
 
@@ -181,7 +288,18 @@ The islands are misterious, and its inhabitants show themselves reserved and qui
 		"titulo" : "Zav-Azur: The Kingdom of the Plague",
 		"descripcion" : 
 		
-"The Zavarian Emprire was once a proud kingdom of pure-blood descendants from the ancient Sultarian civilization. 
+"
+<b><color=#560000>•Foundation:</color></b> Sultari Age/Iron Age.\n
+<b><color=#560000>•Government:</color></b> Matriarchy.\n
+<b><color=#560000>•Capital:</color></b> Krann.\n
+<b><color=#560000>•Races:</color></b> Human 60%, Sultari & Tieflngs 29%, Other 1%\n
+<b><color=#560000>•Population:</color></b> ~500.000 hab.\n
+<b><color=#560000>•Special:</color></b> None.\n
+<b><color=#560000>•Alliances:</color></b> Kulth, Arannia.\n
+<b><color=#560000>•Rivalities:</color></b> Veross, Talos, Delvos.\n
+<b><color=#560000>•Nickname:</color></b> Demons.\n\n
+
+The Zavarian Emprire was once a proud kingdom of pure-blood descendants from the ancient Sultarian civilization. 
 After the War of the Plague, various realms around Fatlyr Mountain were destroyed and the Sultari freed themselves from their imprisonment. 
 Since then, the matriarchy of The Queen of the Plague has started a bloody cruzade in Kerak to recclaim the orignal Sultarian territories.\n \n  
 
@@ -202,7 +320,18 @@ The explosive expansion of the Sultari has become a threat for the realms across
 		"titulo" : "Kulth: The Arcane Leash",
 		"descripcion" : 
 		
-"The realm of the wizards was founded by a cult of Dragon worshippers, exiled from Ish-kan after its foundation.\n \n 
+"
+<b><color=#560000>•Foundation:</color></b> Iron Age.\n
+<b><color=#560000>•Government:</color></b> Magocracy.\n
+<b><color=#560000>•Capital:</color></b> Mozzrath.\n
+<b><color=#560000>•Races:</color></b> Human 90%, Tiefling 9%, Other 1%\n
+<b><color=#560000>•Population:</color></b> 80.000 hab.\n
+<b><color=#560000>•Special:</color></b> None.\n
+<b><color=#560000>•Alliances:</color></b> Zav-Azur, Arannia.\n
+<b><color=#560000>•Rivalities:</color></b> Veross.\n
+<b><color=#560000>•Nickname:</color></b> Cultists.\n\n
+
+The realm of the wizards was founded by a cult of Dragon worshippers, exiled from Ish-kan after its foundation.\n \n 
 
 The members of "The Circle", rule with iron fist upon their society in the isle of Kredos, studying the deep and dark secrets of the Arcanum, while the realm's fortresses protect the frontiers of their territory.\n \n  
 
@@ -220,7 +349,18 @@ Regarding the Kulth lifestyle , the society in the isle is very reserved and con
 		"titulo" : "Fharla, The Cursed Kingdom",
 		"descripcion" : 
 		
-"Almost 2000 years ago, humans from the west, crossed the Sea of Miracles and populated the lost Sultarian ruins in the Plague Vale, ironically a very rich land blessed by the Faltyr Sierra. The human clans founded the realm of Farla over the Sultarian ruins, without knowing the story of their predecessors.\n \n 
+"
+<b><color=#560000>•Foundation:</color></b> Golden Age.\n
+<b><color=#560000>•Government:</color></b> Democracy.\n
+<b><color=#560000>•Capital:</color></b> Astalon.\n
+<b><color=#560000>•Races:</color></b> Human 60%, Dwarves 20%, Tiefling 10%, Other 10%\n
+<b><color=#560000>•Population:</color></b> 350.000 hab.\n
+<b><color=#560000>•Special:</color></b> None.\n
+<b><color=#560000>•Alliances:</color></b> Delvos, Talos, Veross\n
+<b><color=#560000>•Rivalities:</color></b> Zav-Azur, Arannia.\n
+<b><color=#560000>•Nickname:</color></b> Cursed.\n\n
+
+Almost 2000 years ago, humans from the west, crossed the Sea of Miracles and populated the lost Sultarian ruins in the Plague Vale, ironically a very rich land blessed by the Faltyr Sierra. The human clans founded the realm of Farla over the Sultarian ruins, without knowing the story of their predecessors.\n \n 
 
 After the Sultari's reborn, 20 years ago, Farla has being involved in a intense war with Zav-Azur. Supported by their allies in the Blackiron Coast and Ish-kan, they have resisted the powerful Zavarian army. Despite this, the kingdom is living very critical times, being far away from his glorified past , as one of the most richer and prosper kingdoms, famous for their engineering and alchemical technology.\n \n
 
@@ -234,7 +374,18 @@ Along with Zav-Azur, Arannia and the Great Archipelago, Fharla concentrates the 
 		"titulo" : "Castobelo, the new frontier",
 		"descripcion" : 
 		
-"castobello"
+"
+<b><color=#560000>•Foundation:</color></b> Iron Age.\n
+<b><color=#560000>•Government:</color></b> Colony.\n
+<b><color=#560000>•Capital:</color></b> Port Riverlen.\n
+<b><color=#560000>•Races:</color></b> Human 60%, Dwarves 20%, Other 20%\n
+<b><color=#560000>•Population:</color></b> 100.000 hab.\n
+<b><color=#560000>•Special:</color></b> None.\n
+<b><color=#560000>•Alliances:</color></b> Ish-Khan, Free Kingdom.\n
+<b><color=#560000>•Rivalities:</color></b> Ramneshkhan.\n
+<b><color=#560000>•Nickname:</color></b> Zerans.\n\n
+
+castobello"
 
 	}
 	
@@ -244,7 +395,18 @@ Along with Zav-Azur, Arannia and the Great Archipelago, Fharla concentrates the 
 		"titulo" : "Arannia, the dishonored realm",
 		"descripcion" : 
 		
-"arania caca mojada"
+"
+<b><color=#560000>•Foundation:</color></b> Iron Age.\n
+<b><color=#560000>•Government:</color></b> Anarchy.\n
+<b><color=#560000>•Capital:</color></b> Sinna.\n
+<b><color=#560000>•Races:</color></b> Human 60%, Dwarves 20%, Tiefling 10%, Other 10%\n
+<b><color=#560000>•Population:</color></b> 200.000 hab.\n
+<b><color=#560000>•Special:</color></b> None.\n
+<b><color=#560000>•Alliances:</color></b> Zav-Azur, Ramneshkan.\n
+<b><color=#560000>•Rivalities:</color></b> Delvos, Talos, Veross\n
+<b><color=#560000>•Nickname:</color></b> Southern.\n\n
+
+arania caca mojada"
 
 	}
 	
@@ -253,7 +415,7 @@ Along with Zav-Azur, Arannia and the Great Archipelago, Fharla concentrates the 
 		"nombre" : "First_Age",
 		"imagen" : "Kul",
 		"titulo" : "The Primordial, sons of Gods",
-		"descripcion" : 
+		"descripcion" :
 		
 "123456"
 
