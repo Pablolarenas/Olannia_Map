@@ -30,7 +30,6 @@ public class PanelController : MonoBehaviour
         textContainer.sizeDelta = new Vector2(472, this.description.GetComponent<RectTransform>().rect.height);
         this.description.GetComponent<RectTransform>().anchoredPosition = new Vector2(236f, this.description.GetComponent<RectTransform>().rect.height / -2f);
         adjustSizeCoroutine = null;
-        yield return new WaitForEndOfFrame();
         scrollRect.normalizedPosition = new Vector2(0, 1);
     }
 }

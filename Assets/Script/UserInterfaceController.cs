@@ -8,6 +8,7 @@ public class UserInterfaceController : MonoBehaviour
     [SerializeField] private GameObject mapReference;
     [SerializeField] private Dropdown overlayDropdown;
     [SerializeField] private GameObject timeLine;
+    [SerializeField] private GameObject timelineJson;
     private List<GameObject> listOfOverlay;
     private AudioSource[] listOfAudio;
     private bool muteAudios = false;
@@ -74,6 +75,11 @@ public class UserInterfaceController : MonoBehaviour
     public void ToggleTimeLine()
     {
         timeLine.SetActive(!timeLine.activeSelf);
+    }
+
+    public void ToggleTimeLineJson()
+    {
+        timelineJson.SetActive(!timelineJson.activeSelf);
     }
 
 }

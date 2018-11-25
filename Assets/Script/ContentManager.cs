@@ -7,9 +7,11 @@ using UnityEngine;
 public class ContentManager : MonoBehaviour
 {
     [SerializeField] private TextAsset enfermedadMaxima;
+    [SerializeField] private TextAsset enfermedadMaximaTimeline;
     private List<InstanceContent> listOfContent;
-    
-	void Awake ()
+    public List<InstanceContent> ListOfContentTimeline;
+
+    void Awake ()
     {
         listOfContent = new List<InstanceContent>();
         JSONNode data = JSON.Parse(enfermedadMaxima.ToString());
@@ -18,6 +20,14 @@ public class ContentManager : MonoBehaviour
         {
             Debug.Log(data[city]["nombre"].Value);
             listOfContent.Add(new InstanceContent(data[city]["nombre"].Value, data[city]["imagen"].Value, data[city]["titulo"].Value, data[city]["descripcion"].Value));
+        }
+
+        ListOfContentTimeline = new List<InstanceContent>();
+        data = JSON.Parse(enfermedadMaximaTimeline.ToString());
+
+        for (int city = 0; city < data.Count; city++)
+        {
+            ListOfContentTimeline.Add(new InstanceContent(data[city]["nombre"].Value, data[city]["imagen"].Value, data[city]["titulo"].Value, data[city]["descripcion"].Value));
         }
     }
 	

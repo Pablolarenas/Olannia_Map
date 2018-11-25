@@ -138,8 +138,8 @@ public class MapController : MonoBehaviour
     {
         InstanceContent instance = contentManager.GetContentInstance(cityName);
 
-        rightPanel.GetComponent<Animator>().SetBool("In", false);
-        leftPanel.GetComponent<Animator>().SetBool("In", true);
+        rightPanel.SetActive(false);
+        leftPanel.SetActive(true);
 
         leftPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
         leftPanel.GetComponent<PanelController>().Title.text = instance.Title;
@@ -153,8 +153,8 @@ public class MapController : MonoBehaviour
     {
         InstanceContent instance = contentManager.GetContentInstance(cityName);
 
-        rightPanel.GetComponent<Animator>().SetBool("In", true);
-        leftPanel.GetComponent<Animator>().SetBool("In", false);
+        rightPanel.SetActive(true);
+        leftPanel.SetActive(false);
 
         rightPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
         rightPanel.GetComponent<PanelController>().Title.text = instance.Title;
@@ -166,8 +166,8 @@ public class MapController : MonoBehaviour
 
     public void DeactivatePanels()
     {
-        rightPanel.GetComponent<Animator>().SetBool("In", false);
-        leftPanel.GetComponent<Animator>().SetBool("In", false);
+        rightPanel.SetActive(false);
+        leftPanel.SetActive(false);
     }
 
     public void ChangeMap()
