@@ -149,7 +149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -236.00002, y: -3.2000427}
+  m_AnchoredPosition: {x: -236.00002, y: -3.200014}
   m_SizeDelta: {x: 450, y: 26}
   m_Pivot: {x: 0, y: 0.99}
 --- !u!1 &87629650
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1098806690}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1541,13 +1541,14 @@ GameObject:
   - component: {fileID: 353644785}
   - component: {fileID: 353644784}
   - component: {fileID: 353644787}
+  - component: {fileID: 353644788}
   m_Layer: 5
   m_Name: PanelRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &353644784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1601,7 +1602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -19, y: 504}
+  m_AnchoredPosition: {x: 694, y: 504}
   m_SizeDelta: {x: 628, y: 962}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &353644787
@@ -1621,6 +1622,24 @@ MonoBehaviour:
   textContainer: {fileID: 1385879698}
   scrollRect: {fileID: 613139305}
   ButtonObject: {fileID: 690215171}
+--- !u!95 &353644788
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 353644783}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9a56cf1ef38eaea4fa7bd81d05a6d46a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &365636703
 GameObject:
   m_ObjectHideFlags: 0
@@ -3934,7 +3953,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 225, y: -7.727233}
-  m_SizeDelta: {x: 450, y: 17.85795}
+  m_SizeDelta: {x: 450, y: 17.084642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829505374
 MonoBehaviour:
@@ -4835,13 +4854,14 @@ GameObject:
   - component: {fileID: 960286174}
   - component: {fileID: 960286173}
   - component: {fileID: 960286175}
+  - component: {fileID: 960286176}
   m_Layer: 5
   m_Name: PanelLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &960286172
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4861,7 +4881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 19, y: 504}
+  m_AnchoredPosition: {x: -646, y: 504}
   m_SizeDelta: {x: 628, y: 962}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &960286173
@@ -4915,6 +4935,24 @@ MonoBehaviour:
   textContainer: {fileID: 59803567}
   scrollRect: {fileID: 1614280304}
   ButtonObject: {fileID: 1174227977}
+--- !u!95 &960286176
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 960286171}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5eb38f2ddd77d104aac6843e3806b20b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &974231005
 GameObject:
   m_ObjectHideFlags: 0
@@ -5135,7 +5173,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1059386095}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6151,7 +6189,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 225, y: -7.727233}
-  m_SizeDelta: {x: 450, y: 17.85795}
+  m_SizeDelta: {x: 450, y: 17.084642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253171373
 MonoBehaviour:
@@ -7509,7 +7547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -236.00002, y: -3.200024}
+  m_AnchoredPosition: {x: -236.00002, y: -3.1999764}
   m_SizeDelta: {x: 450, y: 26}
   m_Pivot: {x: 0, y: 0.99}
 --- !u!1 &1386942399

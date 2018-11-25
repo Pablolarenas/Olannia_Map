@@ -137,8 +137,10 @@ public class MapController : MonoBehaviour
     public void SpawnLeftPanel(string cityName, GameObject from, GameObject to, bool isButtonNeeded = true)
     {
         InstanceContent instance = contentManager.GetContentInstance(cityName);
-        rightPanel.SetActive(false);
-        leftPanel.SetActive(true);
+
+        rightPanel.GetComponent<Animator>().SetBool("In", false);
+        leftPanel.GetComponent<Animator>().SetBool("In", true);
+
         leftPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
         leftPanel.GetComponent<PanelController>().Title.text = instance.Title;
         leftPanel.GetComponent<PanelController>().SetDescription(instance.Description);
@@ -150,8 +152,10 @@ public class MapController : MonoBehaviour
     public void SpawnRightPanel(string cityName, GameObject from, GameObject to, bool isButtonNeeded = true)
     {
         InstanceContent instance = contentManager.GetContentInstance(cityName);
-        leftPanel.SetActive(false);
-        rightPanel.SetActive(true);
+
+        rightPanel.GetComponent<Animator>().SetBool("In", true);
+        leftPanel.GetComponent<Animator>().SetBool("In", false);
+
         rightPanel.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + instance.Image);
         rightPanel.GetComponent<PanelController>().Title.text = instance.Title;
         rightPanel.GetComponent<PanelController>().SetDescription(instance.Description);
@@ -162,8 +166,8 @@ public class MapController : MonoBehaviour
 
     public void DeactivatePanels()
     {
-        rightPanel.SetActive(false);
-        leftPanel.SetActive(false);
+        rightPanel.GetComponent<Animator>().SetBool("In", false);
+        leftPanel.GetComponent<Animator>().SetBool("In", false);
     }
 
     public void ChangeMap()
