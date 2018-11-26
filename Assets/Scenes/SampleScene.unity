@@ -3264,7 +3264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enfermedadMaxima: {fileID: 4900000, guid: a9272631d36659e4990b87bb95082edc, type: 3}
-  enfermedadMaximaTimeline: {fileID: 4900000, guid: a9272631d36659e4990b87bb95082edc,
+  enfermedadMaximaTimeline: {fileID: 4900000, guid: 662ab02f9ce1c9c4ebb1f7187cc3e9cb,
     type: 3}
 --- !u!114 &659169448
 MonoBehaviour:
@@ -4042,7 +4042,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 902.23596, y: 0}
+  m_AnchoredPosition: {x: 951.5, y: 0}
   m_SizeDelta: {x: 1256, y: 962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &834512262
@@ -5320,7 +5320,7 @@ GameObject:
   - component: {fileID: 1034038188}
   - component: {fileID: 1034038191}
   m_Layer: 5
-  m_Name: TimeLineJson
+  m_Name: Razas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5493,7 +5493,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Timeline
+  m_Text: Races
 --- !u!222 &1045161788
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8434,7 +8434,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1375, y: -1059}
+  m_AnchoredPosition: {x: 1083.5, y: -1007.1}
   m_SizeDelta: {x: 115.71, y: 63.14}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1606716453
@@ -9994,7 +9994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1000, y: -1007}
+  m_AnchoredPosition: {x: 956.9, y: -1007}
   m_SizeDelta: {x: 115.71, y: 63.14}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1866554786
