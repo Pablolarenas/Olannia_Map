@@ -113,6 +113,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!224 &57332978 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224071704671646594, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+    type: 2}
+  m_PrefabInternal: {fileID: 1885072159}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +468,39 @@ PlayableDirector:
   m_CorrespondingSourceObject: {fileID: 320568303377847518, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
     type: 2}
   m_PrefabInternal: {fileID: 1885072159}
+--- !u!1 &1774314980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1774314981}
+  m_Layer: 5
+  m_Name: ToolTIpHolder
+  m_TagString: TooltipHolder
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1774314981
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1774314980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 57332978}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1873804721 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1703643190437628, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
@@ -925,6 +963,82 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 67d6da43aa6eede479e8bd5d3253ceb9,
         type: 3}
+    - target: {fileID: 114323769412910764, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b8f03f6a25959874bbb1a1519967d547,
+        type: 3}
+    - target: {fileID: 224150823139423110, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224347760777781352, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224216901230300816, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224048409392395894, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224843049882837300, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224008306900975960, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224960485958528788, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114287509239080652, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: tooltipHolder
+      value: 
+      objectReference: {fileID: 1774314981}
+    - target: {fileID: 114729742440204470, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: tooltipHolder
+      value: 
+      objectReference: {fileID: 1774314981}
+    - target: {fileID: 114144700898213068, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: tooltipHolder
+      value: 
+      objectReference: {fileID: 1774314981}
+    - target: {fileID: 114698604383414910, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: tooltipHolder
+      value: 
+      objectReference: {fileID: 1774314981}
+    - target: {fileID: 114478325334480186, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: tooltipHolder
+      value: 
+      objectReference: {fileID: 1774314981}
+    - target: {fileID: 114825785667923594, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: tooltipHolder
+      value: 
+      objectReference: {fileID: 1774314981}
+    - target: {fileID: 114865819725725086, guid: 3ec72964c004e4c4d95b656cb2a9c6fa,
+        type: 2}
+      propertyPath: tooltipHolder
+      value: 
+      objectReference: {fileID: 1774314981}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ec72964c004e4c4d95b656cb2a9c6fa, type: 2}
   m_IsPrefabAsset: 0

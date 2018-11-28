@@ -27,6 +27,7 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private Transform toolTipReference = null;
     private Image eventImage;
     private float timeBeingHeld = 0;
+    [SerializeField] private Transform tooltipHolder;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -56,7 +57,7 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         isHovering = false;
         currentTimeHovering = 0;
 
-        if(toolTipReference && toolTipReference.gameObject.activeSelf)
+        if (toolTipReference && toolTipReference.gameObject.activeSelf)
         {
             Destroy(toolTipReference.gameObject);
         }
@@ -68,7 +69,7 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         eventImage = GetComponent<Image>();
         timeToSpawn = mapController.TimeToSpawn;
 
-        if(!isTimeLine)
+        if (!isTimeLine)
         {
             changeLODValue = (mapReference.GetComponent<MapOption>().maxZoom - mapReference.GetComponent<MapOption>().minZoom) * (changeLOD / 100f);
         }
@@ -84,7 +85,8 @@ public class CityInstance : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             if(currentTimeHovering >= timeToSpawn && toolTipReference == null)
             {
                 toolTipReference = Instantiate(toolTip).transform;
-                toolTipReference.SetParent(transform,false);
+                toolTipReference.SetParent(tooltipHolder, false);
+                toolTipReference.localPosition = transform.localPosition;
                 StartCoroutine(toolTipReference.GetComponent<ToolTipInstance>().Init(toolTipWindowInfo, mapOption.ScaleReference));
             }
             currentTimeHovering += Time.deltaTime;
