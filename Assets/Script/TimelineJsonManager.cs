@@ -10,6 +10,7 @@ public class TimelineJsonManager : MonoBehaviour
     [SerializeField] private GameObject instanceOfPanel;
     [SerializeField] private ScrollRect scrollRect;
     private float altura;
+    private float ancho;
 
     public void OnEnable()
     {
@@ -24,8 +25,9 @@ public class TimelineJsonManager : MonoBehaviour
             instance.GetComponent<PanelController>().SetDescription(item.Description);
             instance.GetComponent<PanelController>().ButtonObject.SetActive(false);
             altura = instance.GetComponent<RectTransform>().rect.height;
+            ancho = instance.GetComponent<RectTransform>().rect.width;
         }
-        content.GetComponent<RectTransform>().sizeDelta = new Vector2(628 * (contentManager.ListOfContentTimeline.Count - 1), altura);
+        content.GetComponent<RectTransform>().sizeDelta = new Vector2(ancho * (contentManager.ListOfContentTimeline.Count - 1), altura);
 
         scrollRect.normalizedPosition = new Vector2(0, 1);
     }
