@@ -8539,14 +8539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AssetsPPU: 150
-  m_RefResolutionX: 1920
-  m_RefResolutionY: 1080
-  m_UpscaleRT: 0
-  m_PixelSnapping: 0
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!1 &537292035
 GameObject:
   m_ObjectHideFlags: 0
@@ -14661,6 +14653,7 @@ GameObject:
   - component: {fileID: 907477463}
   - component: {fileID: 907477462}
   - component: {fileID: 907477461}
+  - component: {fileID: 907477464}
   m_Layer: 5
   m_Name: ToggleTimeLine
   m_TagString: Untagged
@@ -14677,7 +14670,7 @@ RectTransform:
   m_GameObject: {fileID: 907477459}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000101, y: 1.0000101, z: 1.0000101}
+  m_LocalScale: {x: 0.09710224, y: 0.09710224, z: 0.09710224}
   m_Children:
   - {fileID: 1210426760}
   m_Father: {fileID: 1873804722}
@@ -14685,8 +14678,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 956.9, y: -1007}
-  m_SizeDelta: {x: 115.71, y: 63.14}
+  m_AnchoredPosition: {x: 943.3, y: -998.5}
+  m_SizeDelta: {x: 693, y: 693}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &907477461
 MonoBehaviour:
@@ -14761,7 +14754,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: de7405c8b80054244860a98f2aff93a1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b4d64bfe0d3eb642b91a8508c6afe6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14777,6 +14770,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 907477459}
   m_CullTransparentMesh: 0
+--- !u!114 &907477464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907477459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -50}
+  m_UseGraphicAlpha: 1
 --- !u!1 &915299275
 GameObject:
   m_ObjectHideFlags: 0
@@ -17434,6 +17441,7 @@ GameObject:
   - component: {fileID: 1086360430}
   - component: {fileID: 1086360429}
   - component: {fileID: 1086360428}
+  - component: {fileID: 1086360431}
   m_Layer: 5
   m_Name: Mute
   m_TagString: Untagged
@@ -17458,8 +17466,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 830.71, y: -1007}
-  m_SizeDelta: {x: 115.71, y: 63.14}
+  m_AnchoredPosition: {x: 863, y: -997.1}
+  m_SizeDelta: {x: 68.7, y: 68.7}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1086360428
 MonoBehaviour:
@@ -17550,6 +17558,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1086360426}
   m_CullTransparentMesh: 0
+--- !u!114 &1086360431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1086360426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!320 &1088205868
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -25056,8 +25078,9 @@ GameObject:
   - component: {fileID: 1441478881}
   - component: {fileID: 1441478880}
   - component: {fileID: 1441478879}
+  - component: {fileID: 1441478882}
   m_Layer: 5
-  m_Name: ToggleTimeLine (1)
+  m_Name: Races
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25072,7 +25095,7 @@ RectTransform:
   m_GameObject: {fileID: 1441478877}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.00001, y: 1.00001, z: 1.00001}
+  m_LocalScale: {x: 0.09717441, y: 0.09717441, z: 0.09717441}
   m_Children:
   - {fileID: 1502662808}
   m_Father: {fileID: 1873804722}
@@ -25080,8 +25103,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1083.5, y: -1007.1}
-  m_SizeDelta: {x: 115.71, y: 63.14}
+  m_AnchoredPosition: {x: 1022.5, y: -998.6}
+  m_SizeDelta: {x: 694, y: 694}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1441478879
 MonoBehaviour:
@@ -25156,7 +25179,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: de7405c8b80054244860a98f2aff93a1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6acc79845d97ac740b09e4ba6acec54b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25172,6 +25195,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1441478877}
   m_CullTransparentMesh: 0
+--- !u!114 &1441478882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1441478877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -50}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1461246416
 GameObject:
   m_ObjectHideFlags: 0
@@ -25828,7 +25865,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1502662808
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27600,7 +27637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1640030245
 RectTransform:
   m_ObjectHideFlags: 0
