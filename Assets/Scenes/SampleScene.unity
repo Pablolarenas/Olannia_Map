@@ -19059,6 +19059,7 @@ MonoBehaviour:
   mapOverlayFar: {fileID: 0}
   mapOverlayClose: {fileID: 0}
   changeLOD: 40
+  mapController: {fileID: 0}
   ScaleReference: {fileID: 0}
 --- !u!114 &1091247766
 MonoBehaviour:
@@ -21264,6 +21265,8 @@ GameObject:
   - component: {fileID: 1173940126}
   - component: {fileID: 1173940125}
   - component: {fileID: 1173940124}
+  - component: {fileID: 1173940129}
+  - component: {fileID: 1173940128}
   m_Layer: 5
   m_Name: MapImage
   m_TagString: Untagged
@@ -21335,6 +21338,35 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1173940123}
   m_CullTransparentMesh: 0
+--- !u!225 &1173940128
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1173940123}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!95 &1173940129
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1173940123}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a851339bd2217bc4dba67d354d435517, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1174017171
 GameObject:
   m_ObjectHideFlags: 0
@@ -29981,13 +30013,15 @@ GameObject:
   - component: {fileID: 1643225813}
   - component: {fileID: 1643225812}
   - component: {fileID: 1643225811}
+  - component: {fileID: 1643225816}
+  - component: {fileID: 1643225815}
   m_Layer: 5
   m_Name: OverlayZoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1643225810
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30086,6 +30120,35 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1643225809}
   m_CullTransparentMesh: 0
+--- !u!225 &1643225815
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643225809}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!95 &1643225816
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643225809}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f643a3843a137504390daf41d18fa86c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1646440544
 GameObject:
   m_ObjectHideFlags: 0
@@ -33475,9 +33538,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minZoom: 0.2
   maxZoom: 3
-  mapOverlayFar: {fileID: 1643225809}
-  mapOverlayClose: {fileID: 1173940123}
+  mapOverlayFar: {fileID: 1643225816}
+  mapOverlayClose: {fileID: 1173940129}
   changeLOD: 10
+  mapController: {fileID: 659169444}
   ScaleReference: {fileID: 973225367}
 --- !u!224 &1911831486
 RectTransform:

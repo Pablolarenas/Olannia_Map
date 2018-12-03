@@ -6,12 +6,14 @@ public class MapOption : MonoBehaviour
 {
     public float minZoom = 1;
     public float maxZoom = 1;
-    [SerializeField] private GameObject mapOverlayFar;
-    [SerializeField] private GameObject mapOverlayClose;
+    [SerializeField] private Animator mapOverlayFar;
+    [SerializeField] private Animator mapOverlayClose;
     [SerializeField] private float changeLOD = 40;
+    [SerializeField] private MapController mapController;
     private float changeLODValue;
     public Transform ScaleReference;
     private bool isMapOverlayActive = false;
+    private bool isZoomed = false;
 
     private void Awake()
     {
@@ -27,16 +29,20 @@ public class MapOption : MonoBehaviour
 
     private void Update()
     {
-        if (ScaleReference.localScale.x > changeLODValue)
+        if (ScaleReference.localScale.x > changeLODValue && !isZoomed)
         {
-            mapOverlayFar.SetActive(false);
-            mapOverlayClose.SetActive(true);
+            mapOverlayFar.Play("MapOff");
+            mapOverlayClose.Play("MapOn");
+            mapController.DeactivatePanels();
+            isZoomed = true;
             //eventImage.SetNativeSize();
         }
-        else if (ScaleReference.localScale.x < changeLODValue)
+        else if (ScaleReference.localScale.x < changeLODValue && isZoomed)
         {
-            mapOverlayFar.SetActive(true);
-            mapOverlayClose.SetActive(false);
+            mapOverlayFar.Play("MapOn");
+            mapOverlayClose.Play("MapOff");
+            mapController.DeactivatePanels();
+            isZoomed = false;
             //eventImage.SetNativeSize();
         }
     }
