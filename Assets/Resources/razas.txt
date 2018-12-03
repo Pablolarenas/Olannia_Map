@@ -7,10 +7,11 @@
 		
 		
 "
-They are the largest race in the known world. Main rulers, nobles and soldiers of the realms. The legend says that humans were once the mighty race of the Firstborn, which were cursed by the Sultarians during the Mystic Era, becoming mortals and losing their direct link with the gods.\n\n
-Across the ages, men have populated most of Amoss and Kerak territories, building towns, realms and empires. Similarly, they have suffered the tyranny of powerful dynasties as Sultarians and Dragons, surviving their reigns through rebellions and war.\n\n
-In other lands of the world, men have settled as nomad clans, living among the wild nature, having occasional contact with the civilization.
-Nowadays they rule most of the kingdoms, leading churches, trading and sailing across the seas, exploring the arcane sciences and, overall, perfecting the art of war.\n\n
+They are the largest race in the known world, the main rulers, nobles and soldiers of the realms. The protagonists of this new era.\n\n 
+The myth says that humans were once a mighty race of deigods called Primordials, which were cursed by their brothers, the Sultari, during the Firts Era, becoming mortals and losing their power and direct link with the creating forces of the world.\n\n
+Across the ages, men have populated most of Amoss and Kerak territories, building towns, realms and even, empires. Although, they have suffered the tyranny of powerful dynasties as Sultarians and Dragons, serving them as slaves and facing them as rebels, benig able to overthown their oppression.\n\n
+In the wild areas of the world, men have settled as nomad clans, living among the wild nature, having occasional contact with the civilization.\n\n
+Nowadays, humnas rule most of the kingdoms, leading their churches, trading and sailing across the seas, exploring the arcane sciences and indomit lands of Zera and, overall, spinning the wheel of history though the perfection the art of war.\n\n
 <b><color=#560000>•Everethians Traits:</color></b> Use Goliath Stats (VGM p.108)\n
 <b><color=#560000>•Ishkanian Traits:</color></b>\n
 \t\t<b><color=#560000>•ASI:</color></b> +2 Con. +1 Int.\n
@@ -32,11 +33,12 @@ Nowadays they rule most of the kingdoms, leading churches, trading and sailing a
 		"titulo" : "Dwarves",
 		"descripcion" : 		
 "
-Dwarves are along all Amoss and Kerak continents, being common members of the realms of men.
-Axerhaim used to be the legendary dwarven realm in the past, but it fell under the tyranny of dragons during the Flaming Wars, at the end of the Golden Age. After the destruction of their lasting cities, the dwarves fled to the human realms, merging their culture with their hosts across the centuries.\n\n
-While few clans remained in wilds mountains of the world, living according to ancient traditions, most dwarves live among men as traders, respected blacksmiths, soldiers, and, in some cities, occupying positions of influence. Despite their past, dwarves are proud of their glorious heritage and most of them keep their old ways and faith.\n\n 
-Dwarven cities are renowned among historians and adventurers alike due their culture, treasures and legacy, which lie buried in the deep heart of the old mountains of Amoss. There, where even the most skilled adventurers don't dare to explore.\n\n
-<b><color=#560000>•Special:</color></b> Drwarves has dark eyes with bright pupil like stone.\n
+Dwarves live along all Amoss and Kerak human lands, being active and respected members of their societies, as renowbed smiths, warriors and artisans. \n\n
+Despite their status, all dwarves share pain and shame in their memories; being all of them exiled survivors from their destroyed homelands. \n\n
+During the Flaming Wars, their legendary cities fell under the tyranny of the dragon lords, forcing them to seek sanctuary to the realms of men. Along the centuries, they ended merging their culture and lore with their hosts.\n\n
+In the wild mountains, barbaric dwarven clans continue living according to ancient traditions, calling themselves true dwarves and seeing their civilzed relatives as weak or even traitors.\n\n
+Despite their tragic past, dwarves are proud of their glorious heritage and most of them keep their old ways and faith. \n\n
+Dwarven cities are renowned among historians and adventurers alike due their culture, treasures and legacy,  buried in the deep heart of the old mountains of Amoss. There, where even the most skilled adventurers don't dare to explore.
 <b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
 
 {
@@ -45,12 +47,13 @@ Dwarven cities are renowned among historians and adventurers alike due their cul
 		"titulo" : "Woodfolks",
 		"descripcion" : 		
 "
-Across the millennia, the extreme lands of the world have remained unexplored by men. And there are good reason for that. The extreme weather, geography and the wild and dangerous creatures that inhabit in those forgotten lands makes the task a suicidal expedition.\n\n
-According to the myth, this hostile corner of the world were inhabited by forest folk. Pure incarnations of the Firstborns, who came back to the world during the Portal Wars. The truth is, no one can give credit to the legend in the current days. Their existence remains uncertain.\n\n
-Some historians have written that the forestfolks remained in their lands living in a constant communion with the forces of nature, becoming the last defenders of The Legacy, an ancient and divine power given to the Firstborn by the gods during the First Era. But, there’s no evidence in the eyes of the men that can prove this theory.
-Others claim to have seen them in ancient forests near the mountains. However, such stories are often dismissed by people.\n\n
-In this way, the existence of the elves has ended up being nothing more than a myth, commonly heard from superstitious villagers
-Although, in the last years, due to the sailing development, men have been able to navigate beyond the troubled seas, getting closer to the "edges" of the world, and claiming have seen strange creatures in the wild archipelagos  of the southern Evergreen and the new lands of Zera.\n\n
+Across the millennia, the extreme lands of the world have remained unexplored by men. And there are good reason for that. The extreme weather, geography and the wild and dangerous creatures that inhabit in those forgotten lands makes the task a suicidal expedition.\n\n 
+
+According to some beliefs, this hostile corner of the world is inhabited by forest folks: pure incarnations of the Primordials, who blossomed to the world during the Portal Wars, to protect the Legacy from the extraplanar menace. However, the truth is, no one can give credit to the legend in the current days. Their existence remains uncertain.\n\n
+
+Some historians have written that the forest folks remained in their lands living in a constant communion with the forces of nature after the Fall of the Sultari. But, there’s no evidence in the eyes of the men that can prove this theory. Others claim to have seen them in ancient forests near the mountains. However, such stories are often dismissed by people.In this way, the existence of them has ended up being nothing more than a myth, commonly heard from superstitious villagers.\n\n
+
+Although, in the last years, due to the sailing development, men have been able to navigate beyond the troubled seas, getting closer to the "edges" of the world, and claiming have seen strange creatures in the wild archipelagos  of the southern Evergreen and the new lands of Zera.
 <b><color=#560000>•Special:</color></b> Woodfolks has dark eyes with bright pupil like stone.\n
 <b><color=#560000>• Traits Reference:</color></b> VGM p.106."}
 
@@ -118,6 +121,28 @@ Still, they are not welcome people in some kingdoms. Their presence usually gene
 		"imagen" : "Iskan",
 		"titulo" : "Tabaxi",
 		"descripcion" : 		
+"
+Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
+Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
+Still, they are not welcome people in some kingdoms. Their presence usually generate discomfort among Verossians and Eberethians, who distrust their chaotic manners and attitude.\n\n
+<b><color=#560000>• Traits Reference:</color></b> VGM p.113."}
+
+{
+        "nombre" : "Dragonborns",
+        "imagen" : "Iskan",
+        "titulo" : "Tabaxi",
+        "descripcion" :         
+"
+Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
+Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
+Still, they are not welcome people in some kingdoms. Their presence usually generate discomfort among Verossians and Eberethians, who distrust their chaotic manners and attitude.\n\n
+<b><color=#560000>• Traits Reference:</color></b> VGM p.113."}
+
+{
+        "nombre" : "Yuan-Ti",
+        "imagen" : "Iskan",
+        "titulo" : "Tabaxi",
+        "descripcion" :         
 "
 Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
 Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
