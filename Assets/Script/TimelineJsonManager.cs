@@ -20,10 +20,10 @@ public class TimelineJsonManager : MonoBehaviour
             instance = GameObject.Instantiate(instanceOfPanel).transform;
             instance.SetParent(content, false);
 
-            instance.GetComponent<PanelController>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + item.Image);
-            instance.GetComponent<PanelController>().Title.text = item.Title;
-            instance.GetComponent<PanelController>().SetDescription(item.Description);
-            instance.GetComponent<PanelController>().ButtonObject.SetActive(false);
+            instance.GetComponent<TimeLinePanel>().ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + item.Image);
+            instance.GetComponent<TimeLinePanel>().Title.text = item.Title;
+            instance.GetComponent<TimeLinePanel>().SetDescription(item.Description);
+            instance.GetComponent<TimeLinePanel>().ButtonObject.SetActive(false);
             altura = instance.GetComponent<RectTransform>().rect.height;
             ancho = instance.GetComponent<RectTransform>().rect.width;
         }

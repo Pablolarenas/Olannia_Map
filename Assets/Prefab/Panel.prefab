@@ -228,8 +228,8 @@ GameObject:
   - component: {fileID: 224586224152643636}
   - component: {fileID: 222158904147653292}
   - component: {fileID: 114649855709554140}
-  - component: {fileID: 114810173202021466}
   - component: {fileID: 114808401740615400}
+  - component: {fileID: 114558920082165520}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -429,7 +429,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 224875337461849430}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -674,6 +674,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &114558920082165520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1948468318447666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c0bc9d9bf9027944a7c2865c17b648d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ImagePanel: {fileID: 114238598751418340}
+  Title: {fileID: 114376941671484872}
+  description: {fileID: 114426294779144298}
+  textContainer: {fileID: 224107970677366262}
+  scrollRect: {fileID: 114006045478777882}
+  ButtonObject: {fileID: 1356548165863726}
 --- !u!114 &114649855709554140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -753,23 +770,6 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &114810173202021466
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1948468318447666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85d1b8fee844e1a489815843ae11aeb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ImagePanel: {fileID: 114238598751418340}
-  Title: {fileID: 114376941671484872}
-  description: {fileID: 114426294779144298}
-  textContainer: {fileID: 224107970677366262}
-  scrollRect: {fileID: 114006045478777882}
-  ButtonObject: {fileID: 1356548165863726}
 --- !u!222 &222158904147653292
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -1015,7 +1015,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 225, y: -7.727233}
-  m_SizeDelta: {x: 450, y: 17}
+  m_SizeDelta: {x: 450, y: 18.361612}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224825260063910224
 RectTransform:
