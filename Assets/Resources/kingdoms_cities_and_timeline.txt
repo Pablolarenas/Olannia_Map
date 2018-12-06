@@ -519,7 +519,7 @@ arania caca mojada"
 													{
 		"nombre" : "Fall of the Dwarven Realms",
 		"imagen" : "dwarfal",
-		"titulo" : "The Primordial, sons of Gods",
+		"titulo" : "The Dwarven Fall",
 		"descripcion" : 
 		
 "The dwarven cities were one of the first ones to fell into disgrace by the tyranny of the Dragons of Kalax after the coup on Ish-Khan. Initially, the dragons ensalved dwarves to work for the empire as miners and crafters. The main fortresses of Axerhaim and Kuvinkar, were transformed into forge stations for the imperial armies, while their mines were intensely exploited until completely empited. Over 300 years the dwarves lived as slaves, until they rebelled against their masters, spilling blood for their freedom.\n \n 
@@ -532,7 +532,7 @@ After the rebellion were finished, the surviving ones were taken to the draconic
 														{
 		"nombre" : "Rise of the Sultari",
 		"imagen" : "Kul",
-		"titulo" : "The Primordial, sons of Gods",
+		"titulo" : "Rise of The Sultari",
 		"descripcion" : 
 		
 "In the midst of the war between the Kingdoms of Plague, Fharla, Ebironia and Zav-Azur, the dark prophecies of a young oracle come true: The Sultari, immortals sentenced to a perpetual imprisonment in the mountain of Faltyr due their heretic war, breaks their chains and invade the kingdom of Zav-Azur, taking it with blood.\n \n 
@@ -563,10 +563,10 @@ The condemned have returned, and this time, led by a new queen, who wishes to re
 {
 		"nombre" : "The War of the Three Kingdoms",
 		"imagen" : "threekingdomswar",
-		"titulo" : "The Primordial, sons of Gods",
+		"titulo" : "The War of the Three Kingdoms",
 		"descripcion" : 
 		
-"123456"
+"After the death of the last king of Kelvor, the realm falls into a period of great political instability, which culminates in the fragmentation of the court. A brief war between the most powerful houses of the kingdom ends with a decree of peace between them, which meant the division of the kingdom into three parts: Ramdyr, ruled by the new rich houses and merchant guilds of the north. Delvos, ruled by the traditional aristocracy, owner of the arable lands in the midlands. And finally, Talos, governed by the military houses of the kingdom, owners of the mines of the south."
 
 }
 	
@@ -604,7 +604,7 @@ The condemned have returned, and this time, led by a new queen, who wishes to re
 {
 		"nombre" : "The Kelvorian War",
 		"imagen" : "yunati",
-		"titulo" : "The Primordial, sons of Gods",
+		"titulo" : "Persiste, Goddess of Death",
 		"descripcion" : 
 		
 "Persiste, queen and goddess of the dead, atempted to rise back to Olannia, merging the dead's plane with the material plane. A group of heroes led by Daelrick, bastard son of the king of Kelvor, starts a quest to defeat the lich Ivelius Black, Periste's servant and the main mind behind her plans. The adventurers chase Black across several cities of Amoss until his secret fortress in Port Riverlen, former capitol of Kelvor. The war between the Kelvorian armies and the dead ends with thier banishing back to their world and the destruction of Port Riverlen. After the war, Daelrick, becomes the king of Kelvor and the city of Adatla is founded next to the ruins of the old city."
