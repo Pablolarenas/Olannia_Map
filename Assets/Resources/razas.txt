@@ -2,6 +2,7 @@
 	{
 		"nombre" : "Humans",
 		"imagen" : "Iskan",
+        "imagen2" : "Iskan",
 		"titulo" : "Humans",
 		"descripcion" : 
 		
@@ -30,6 +31,7 @@ Nowadays, humnas rule most of the kingdoms, leading their churches, trading and 
 {
 		"nombre" : "Dwarves",
 		"imagen" : "Iskan",
+        "imagen2" : "Iskan",
 		"titulo" : "Dwarves",
 		"descripcion" : 		
 "
@@ -44,6 +46,7 @@ Dwarven cities are renowned among historians and adventurers alike due their cul
 {
 		"nombre" : "Woodfolks",
 		"imagen" : "Iskan",
+        "imagen2" : "Iskan",
 		"titulo" : "Woodfolks",
 		"descripcion" : 		
 "
@@ -60,6 +63,7 @@ Although, in the last years, due to the sailing development, men have been able 
 {
 		"nombre" : "Half-Orcs",
 		"imagen" : "Iskan",
+        "imagen2" : "Iskan",
 		"titulo" : "Half-Orcs",
 		"descripcion" : 		
 "
@@ -73,6 +77,7 @@ Despite their intimidating aspect and bad reputation, some Half-Orcs have lived 
 {
 		"nombre" : "Aasimar",
 		"imagen" : "Iskan",
+        "imagen2" : "Iskan",
 		"titulo" : "Aasimar",
 		"descripcion" : 		
 "
@@ -85,6 +90,7 @@ Nowadays, the Aasimars are almost extinct. The common folk knows that the last o
 {
 		"nombre" : "Tieflings",
 		"imagen" : "Iskan",
+        "imagen2" : "Iskan",
 		"titulo" : "Tieflings",
 		"descripcion" : 		
 "
@@ -96,6 +102,7 @@ Along the eras, the Tieflings has lived as a nomad culture. Without kingdom or n
 {
 		"nombre" : "Gnomes",
 		"imagen" : "Iskan",
+        "imagen2" : "Iskan",
 		"titulo" : "Gnomes",
 		"descripcion" : 		
 "
@@ -108,6 +115,7 @@ Nowadays, Gnomes are common folks in the western kingdoms, specially in small to
 {
 		"nombre" : "Halflings",
 		"imagen" : "Iskan",
+        "imagen2" : "Iskan",
 		"titulo" : "Halflings",
 		"descripcion" : 		
 "
@@ -119,6 +127,7 @@ Still, they are not welcome people in some kingdoms. Their presence usually gene
 {
 		"nombre" : "Tabaxi",
 		"imagen" : "Iskan",
+        "imagen2" : "Iskan",
 		"titulo" : "Tabaxi",
 		"descripcion" : 		
 "
@@ -130,6 +139,7 @@ Still, they are not welcome people in some kingdoms. Their presence usually gene
 {
         "nombre" : "Dragonborns",
         "imagen" : "Iskan",
+        "imagen2" : "Iskan",
         "titulo" : "Tabaxi",
         "descripcion" :         
 "
@@ -141,6 +151,7 @@ Still, they are not welcome people in some kingdoms. Their presence usually gene
 {
         "nombre" : "Yuan-Ti",
         "imagen" : "Iskan",
+        "imagen2" : "Iskan",
         "titulo" : "Tabaxi",
         "descripcion" :         
 "
