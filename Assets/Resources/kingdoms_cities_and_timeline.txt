@@ -417,7 +417,7 @@ arania caca mojada"
 	
 	
 										{
-		"nombre" : "First_Age",
+		"nombre" : "First Age",
 		"imagen" : "Kul",
 		"titulo" : "The Primordial, sons of Gods",
 		"descripcion" :
@@ -427,7 +427,7 @@ arania caca mojada"
 	}
 	
 										{
-		"nombre" : "Sultari_Age",
+		"nombre" : "Sultari Age",
 		"imagen" : "Kul",
 		"titulo" : "The Age of the Fallen",
 		"descripcion" : 
@@ -437,7 +437,7 @@ arania caca mojada"
 	}
 	
 										{
-		"nombre" : "Portal_Age",
+		"nombre" : "Portal Age",
 		"imagen" : "Kul",
 		"titulo" : "The Age of Chaos",
 		"descripcion" : 
@@ -447,7 +447,7 @@ arania caca mojada"
 	}
 	
 										{
-		"nombre" : "Golden_Age",
+		"nombre" : "Golden Age",
 		"imagen" : "Kul",
 		"titulo" : "The Great Realms",
 		"descripcion" : 
@@ -457,7 +457,7 @@ arania caca mojada"
 	}
 	
 										{
-		"nombre" : "Draconic_Age",
+		"nombre" : "Draconic Age",
 		"imagen" : "Kul",
 		"titulo" : "The Dragonlords Tiranny",
 		"descripcion" : 
@@ -467,7 +467,7 @@ arania caca mojada"
 	}
 	
 										{
-		"nombre" : "Iron_Age",
+		"nombre" : "The Age of Men",
 		"imagen" : "Kul",
 		"titulo" : "The Age of Men",
 		"descripcion" : 
@@ -477,7 +477,7 @@ arania caca mojada"
 	}
 	
 									{
-		"nombre" : "The_Primordials",
+		"nombre" : "The Primordials",
 		"imagen" : "Kul",
 		"titulo" : "The Primordial, sons of Gods",
 		"descripcion" : 
@@ -485,4 +485,117 @@ arania caca mojada"
 "123456"
 
 	}
+	
+										{
+		"nombre" : "The Portal Wars",
+		"imagen" : "Kul",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+											{
+		"nombre" : "Fall of the Sultari",
+		"imagen" : "Kul",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+												{
+		"nombre" : "Kalamavar",
+		"imagen" : "dragonwars",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+													{
+		"nombre" : "Fall of the Dwarven Realms",
+		"imagen" : "dwarfal",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+														{
+		"nombre" : "Rise of the Sultari",
+		"imagen" : "Kul",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+															{
+		"nombre" : "The Plague Wars",
+		"imagen" : "plaguewars",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+																{
+		"nombre" : "The War of Kuvinkar",
+		"imagen" : "Kuvinkar",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+	}
+	
+{
+		"nombre" : "The War of the Three Kingdoms",
+		"imagen" : "threekingdomswar",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+}
+	
+	
+	{
+		"nombre" : "The HolySword Crusade",
+		"imagen" : "holycrusade",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+}
+
+{
+		"nombre" : "ishkanwar",
+		"imagen" : "warofishkan",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+}
+
+{
+		"nombre" : "The Sand Wars",
+		"imagen" : "yunati",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"123456"
+
+}
+
+
 ]
