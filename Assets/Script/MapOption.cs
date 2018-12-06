@@ -17,8 +17,8 @@ public class MapOption : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log(maxZoom + "-" + minZoom);
-        changeLODValue = (maxZoom - minZoom) * (changeLOD / 100f);
+        changeLODValue = (maxZoom - minZoom) / changeLOD;
+        Debug.Log(maxZoom + "-" + minZoom+" ++ "+ changeLODValue);
     }
 
     public void ToggleMapOverlay()

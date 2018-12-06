@@ -1,12 +1,10 @@
 [
 	{
 		"nombre" : "Humans",
-		"imagen" : "Iskan",
-        "imagen2" : "Iskan",
+		"imagen" : "hum_geo",
+        "imagen2" : "Hum",
 		"titulo" : "Humans",
-		"descripcion" : 
-		
-		
+		"descripcion" : 	
 "
 They are the largest race in the known world, the main rulers, nobles and soldiers of the realms. The protagonists of this new era.\n\n 
 The myth says that humans were once a mighty race of deigods called Primordials, which were cursed by their brothers, the Sultari, during the Firts Era, becoming mortals and losing their power and direct link with the creating forces of the world.\n\n
@@ -30,8 +28,8 @@ Nowadays, humnas rule most of the kingdoms, leading their churches, trading and 
 
 {
 		"nombre" : "Dwarves",
-		"imagen" : "Iskan",
-        "imagen2" : "Iskan",
+		"imagen" : "dwa_geo",
+        "imagen2" : "dwa",
 		"titulo" : "Dwarves",
 		"descripcion" : 		
 "
@@ -44,9 +42,97 @@ Dwarven cities are renowned among historians and adventurers alike due their cul
 <b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
 
 {
+		"nombre" : "Halflings",
+		"imagen" : "hal_geo",
+        "imagen2" : "hal",
+		"titulo" : "Halflings",
+		"descripcion" : 		
+"
+Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
+Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
+Still, they are not welcome people in some kingdoms. Their presence usually generate discomfort among Verossians and Eberethians, who distrust their chaotic manners and attitude.\n\n
+<b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
+
+{
+		"nombre" : "Half-Orcs",
+		"imagen" : "hor_geo",
+        "imagen2" : "hor",
+		"titulo" : "Half-Orcs",
+		"descripcion" : 		
+"
+Feared by common folks and respected by few smart lords which value a good and strong sword, Half-Orcs are paradoxical people. Although they are not Orcs, they still carrying fragments of the demonic blood of their relatives on their veins.\n\n
+The first Half-Orcs were seen in small towns after the attacks made by the Orc gangs once they arrived Amoss. As result of the rape, they didn't survive more than one day among the furious villagers, being immediately sacrificed by them. Despite this, after centuries and wars, they started to be "accepted" in some cosmopolitan cultures, especially as soldiers and mercenaries.\n\n
+Nowadays, the half orcs are seen as furious warriors, efficient mercenaries, village thugs, unwanted commoners and part of the Blood Clan's army of Ramneshk, usually seen as despicable weak bastards by the Orcs. Despite their orch heritage, just a very few Half-Orcs have been "respected" by them, serving as agents, spies and soldiers of the horde.
+This is probably the main reason why most Half-Orcs travel along the realms seeking a new life, avoiding the land of their fathers.\n\n
+Despite their intimidating aspect and bad reputation, some Half-Orcs have lived among peaceful humans, dwarves and Halflings, being raised as friendly and loyal members to their community.\n\n\
+<b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
+
+{
+		"nombre" : "Tieflings",
+		"imagen" : "tie_geo",
+        "imagen2" : "tie",
+		"titulo" : "Tieflings",
+		"descripcion" : 		
+"
+Tieflings has their origin during the tyrannical reign of the Sultari. During that dark ages, the fallen celestials mixed their blood with their human slaves to expand their lineage along the empire. The offspring of that rapes were the first Tieflings, known by their human relatives as "Plague-blooded".\n\n
+Living among the slaves and the noble tyrants, the Tieflings were always pariahs in both worlds. Treated as inferiors by their fathers and a source of shame by their mothers. Rapidly, Tieflings understood that their destiny resided only in their will and audacity.\n\n
+Along the eras, the Tieflings has lived as a nomad culture. Without kingdom or nation, surviving among wars and chaos, but learning from them. Using their divine, or cursed, heritage to become extraordinary spellcasters, merchants, spies, thieves or even assassins, serving several noblemen, without any sense of loyalty. Others, have tried to live a charmed life, making extraordinary efforts to blend in the human society. Unfortunately, without too much success. Similar than Half Orcs, Tieflings are seen as a manifestation of evil or even bad luck in the best cases.Despite this, Tieflings are being successful in their survival efforts, preserving their lineage across the centuries and the falling of several kingdoms, building their own space in the world.\n\n
+<b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
+
+{
+		"nombre" : "Gnomes",
+		"imagen" : "gno_geo",
+        "imagen2" : "gno",
+		"titulo" : "Gnomes",
+		"descripcion" : 		
+"
+Much more sociable than dwarves, but less chaotic than Halflings, Gnomes understand the languages of nature as well as the Arcanum, being one of the most wise and cultured folks in the realms.\n\n
+After de Portal Wars, the gnome families gathered in Ish-khan, contributing to the development of the arcane society. Centuries later, they crossed The Exile, establishing their enclave in the kingdom of Kamyr, serving the realm as respected and trustful advisors and keepers of the words.\n\n
+After the fall of Kewlvor, they spread along the Sea of Miracles, expanding their communities wherever the rumours of a secret knowledge could emerge.\n\n
+Nowadays, Gnomes are common folks in the western kingdoms, specially in small towns and cities next to woods and countryside. Well received in most places excepting Veross and Zav-Azur, their both mental and social aptitudes make them suitable for basically any profession. Although, they prefer to invest their time among scrolls, potions and wild, studying the mysteries of the world.\n\n
+<b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
+
+{
+		"nombre" : "Tabaxi",
+		"imagen" : "tab_geo",
+        "imagen2" : "tab",
+		"titulo" : "Tabaxi",
+		"descripcion" : 		
+"
+Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
+Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
+Still, they are not welcome people in some kingdoms. Their presence usually generate discomfort among Verossians and Eberethians, who distrust their chaotic manners and attitude.\n\n
+<b><color=#560000>• Traits Reference:</color></b> VGM p.113."}
+
+{
+        "nombre" : "Dragonborns",
+        "imagen" : "dra_geo",
+        "imagen2" : "dra",
+        "titulo" : "Dragonborns",
+        "descripcion" :         
+"
+Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
+Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
+Still, they are not welcome people in some kingdoms. Their presence usually generate discomfort among Verossians and Eberethians, who distrust their chaotic manners and attitude.\n\n
+<b><color=#560000>• Traits Reference:</color></b> VGM p.113."}
+
+{
+		"nombre" : "Aasimar",
+		"imagen" : "aas_geo",
+        "imagen2" : "aas",
+		"titulo" : "Aasimar",
+		"descripcion" : 		
+"
+Blessed by the gods, Aasimars are probably the rarest of all races, considered, by the few ones that know them, as living miracles. Aasimar are humans with blood of their godly ancestors.\n\n
+According to the myth, when the Sultari cursed their brothers, the Firstborns, transforming them in to humans, some of them conserved part of their old divine power. Over the eras, the blood of the Aasimar started to dissolve, although, some families were more resilient, preserving their lineage.\n\n
+On the other hand, the recorded history of the realms alludes of some Aasimars born in commoner families, non-related with the old bloodlines, suggesting that their existence is also promoted by the will of the gods.\n\n
+Nowadays, the Aasimars are almost extinct. The common folk knows that the last ones live as monks and priests in the temple-city of Kha. An isolated sanctuary located in the Hollow Coast, hidden from all kingdoms, but loyal to the Ish-Kan crown, serving it as respected oracles and protectors.\n\n
+<b><color=#560000>• Traits Reference:</color></b> VGM p.104."}
+
+{
 		"nombre" : "Woodfolks",
-		"imagen" : "Iskan",
-        "imagen2" : "Iskan",
+		"imagen" : "woo_geo",
+        "imagen2" : "woo",
 		"titulo" : "Woodfolks",
 		"descripcion" : 		
 "
@@ -59,25 +145,10 @@ Some historians have written that the forest folks remained in their lands livin
 Although, in the last years, due to the sailing development, men have been able to navigate beyond the troubled seas, getting closer to the "edges" of the world, and claiming have seen strange creatures in the wild archipelagos  of the southern Evergreen and the new lands of Zera.
 <b><color=#560000>•Special:</color></b> Woodfolks has dark eyes with bright pupil like stone.\n
 <b><color=#560000>• Traits Reference:</color></b> VGM p.106."}
-
-{
-		"nombre" : "Half-Orcs",
-		"imagen" : "Iskan",
-        "imagen2" : "Iskan",
-		"titulo" : "Half-Orcs",
-		"descripcion" : 		
-"
-Feared by common folks and respected by few smart lords which value a good and strong sword, Half-Orcs are paradoxical people. Although they are not Orcs, they still carrying fragments of the demonic blood of their relatives on their veins.\n\n
-The first Half-Orcs were seen in small towns after the attacks made by the Orc gangs once they arrived Amoss. As result of the rape, they didn't survive more than one day among the furious villagers, being immediately sacrificed by them. Despite this, after centuries and wars, they started to be "accepted" in some cosmopolitan cultures, especially as soldiers and mercenaries.\n\n
-Nowadays, the half orcs are seen as furious warriors, efficient mercenaries, village thugs, unwanted commoners and part of the Blood Clan's army of Ramneshk, usually seen as despicable weak bastards by the Orcs. Despite their orch heritage, just a very few Half-Orcs have been "respected" by them, serving as agents, spies and soldiers of the horde.
-This is probably the main reason why most Half-Orcs travel along the realms seeking a new life, avoiding the land of their fathers.\n\n
-Despite their intimidating aspect and bad reputation, some Half-Orcs have lived among peaceful humans, dwarves and Halflings, being raised as friendly and loyal members to their community.\n\n\
-<b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
-
 {
 		"nombre" : "Aasimar",
 		"imagen" : "Iskan",
-        "imagen2" : "Iskan",
+        "imagen2" : "aas",
 		"titulo" : "Aasimar",
 		"descripcion" : 		
 "
@@ -87,76 +158,4 @@ On the other hand, the recorded history of the realms alludes of some Aasimars b
 Nowadays, the Aasimars are almost extinct. The common folk knows that the last ones live as monks and priests in the temple-city of Kha. An isolated sanctuary located in the Hollow Coast, hidden from all kingdoms, but loyal to the Ish-Kan crown, serving it as respected oracles and protectors.\n\n
 <b><color=#560000>• Traits Reference:</color></b> VGM p.104."}
 
-{
-		"nombre" : "Tieflings",
-		"imagen" : "Iskan",
-        "imagen2" : "Iskan",
-		"titulo" : "Tieflings",
-		"descripcion" : 		
-"
-Tieflings has their origin during the tyrannical reign of the Sultari. During that dark ages, the fallen celestials mixed their blood with their human slaves to expand their lineage along the empire. The offspring of that rapes were the first Tieflings, known by their human relatives as "Plague-blooded".\n\n
-Living among the slaves and the noble tyrants, the Tieflings were always pariahs in both worlds. Treated as inferiors by their fathers and a source of shame by their mothers. Rapidly, Tieflings understood that their destiny resided only in their will and audacity.\n\n
-Along the eras, the Tieflings has lived as a nomad culture. Without kingdom or nation, surviving among wars and chaos, but learning from them. Using their divine, or cursed, heritage to become extraordinary spellcasters, merchants, spies, thieves or even assassins, serving several noblemen, without any sense of loyalty. Others, have tried to live a charmed life, making extraordinary efforts to blend in the human society. Unfortunately, without too much success. Similar than Half Orcs, Tieflings are seen as a manifestation of evil or even bad luck in the best cases.Despite this, Tieflings are being successful in their survival efforts, preserving their lineage across the centuries and the falling of several kingdoms, building their own space in the world.\n\n
-<b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
-
-{
-		"nombre" : "Gnomes",
-		"imagen" : "Iskan",
-        "imagen2" : "Iskan",
-		"titulo" : "Gnomes",
-		"descripcion" : 		
-"
-Much more sociable than dwarves, but less chaotic than Halflings, Gnomes understand the languages of nature as well as the Arcanum, being one of the most wise and cultured folks in the realms.\n\n
-After de Portal Wars, the gnome families gathered in Ish-khan, contributing to the development of the arcane society. Centuries later, they crossed The Exile, establishing their enclave in the kingdom of Kamyr, serving the realm as respected and trustful advisors and keepers of the words.\n\n
-After the fall of Kewlvor, they spread along the Sea of Miracles, expanding their communities wherever the rumours of a secret knowledge could emerge.\n\n
-Nowadays, Gnomes are common folks in the western kingdoms, specially in small towns and cities next to woods and countryside. Well received in most places excepting Veross and Zav-Azur, their both mental and social aptitudes make them suitable for basically any profession. Although, they prefer to invest their time among scrolls, potions and wild, studying the mysteries of the world.\n\n
-<b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
-
-{
-		"nombre" : "Halflings",
-		"imagen" : "Iskan",
-        "imagen2" : "Iskan",
-		"titulo" : "Halflings",
-		"descripcion" : 		
-"
-Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
-Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
-Still, they are not welcome people in some kingdoms. Their presence usually generate discomfort among Verossians and Eberethians, who distrust their chaotic manners and attitude.\n\n
-<b><color=#560000>• Traits Reference:</color></b> PHB p.000."}
-
-{
-		"nombre" : "Tabaxi",
-		"imagen" : "Iskan",
-        "imagen2" : "Iskan",
-		"titulo" : "Tabaxi",
-		"descripcion" : 		
-"
-Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
-Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
-Still, they are not welcome people in some kingdoms. Their presence usually generate discomfort among Verossians and Eberethians, who distrust their chaotic manners and attitude.\n\n
-<b><color=#560000>• Traits Reference:</color></b> VGM p.113."}
-
-{
-        "nombre" : "Dragonborns",
-        "imagen" : "Iskan",
-        "imagen2" : "Iskan",
-        "titulo" : "Tabaxi",
-        "descripcion" :         
-"
-Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
-Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
-Still, they are not welcome people in some kingdoms. Their presence usually generate discomfort among Verossians and Eberethians, who distrust their chaotic manners and attitude.\n\n
-<b><color=#560000>• Traits Reference:</color></b> VGM p.113."}
-
-{
-        "nombre" : "Yuan-Ti",
-        "imagen" : "Iskan",
-        "imagen2" : "Iskan",
-        "titulo" : "Tabaxi",
-        "descripcion" :         
-"
-Relatively popular in the Great Archipelago, Arannia and The Free Kingdoms in the current days, Halflings used to be very common folks along the Blackiron coast, before the founding of the kingdoms. But, after the Portal Wars, the population of small folks, was in a critical phase, one step to extinction.\n\n
-Nowadays, Halflings survive far away from their original lands in the countryside, adapting themselves quite well to the urban environment. Serving as efficient spies, charismatic entertainers, skilled crafters and servants of many aristocrats, they are quite valued for their sharp hands and mind.\n\n
-Still, they are not welcome people in some kingdoms. Their presence usually generate discomfort among Verossians and Eberethians, who distrust their chaotic manners and attitude.\n\n
-<b><color=#560000>• Traits Reference:</color></b> VGM p.113."}
 ]

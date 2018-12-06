@@ -522,7 +522,10 @@ arania caca mojada"
 		"titulo" : "The Primordial, sons of Gods",
 		"descripcion" : 
 		
-"123456"
+"The dwarven cities were one of the first ones to fell into disgrace by the tyranny of the Dragons of Kalax after the coup on Ish-Khan. Initially, the dragons ensalved dwarves to work for the empire as miners and crafters. The main fortresses of Axerhaim and Kuvinkar, were transformed into forge stations for the imperial armies, while their mines were intensely exploited until completely empited. Over 300 years the dwarves lived as slaves, until they rebelled against their masters, spilling blood for their freedom.\n \n 
+
+The dragons, not only defeated the dwarves in battle, but also they destroyed their cities as punishment for tehir insurrection, reducing them into rubblle. The dwarven cities, once a glorious bastion of their skill and power were now a tomb of rocks and dead, sepulted in the deep of the mountain.\n \n 
+After the rebellion were finished, the surviving ones were taken to the draconic cities, while some of them run back into the wild mountains. "
 
 	}
 	
@@ -532,7 +535,8 @@ arania caca mojada"
 		"titulo" : "The Primordial, sons of Gods",
 		"descripcion" : 
 		
-"123456"
+"In the midst of the war between the Kingdoms of Plague, Fharla, Ebironia and Zav-Azur, the dark prophecies of a young oracle come true: The Sultari, immortals sentenced to a perpetual imprisonment in the mountain of Faltyr due their heretic war, breaks their chains and invade the kingdom of Zav-Azur, taking it with blood.\n \n 
+The condemned have returned, and this time, led by a new queen, who wishes to reclaim the ancient territories of the mythical Sultarian empire."
 
 	}
 	
@@ -597,5 +601,14 @@ arania caca mojada"
 
 }
 
+{
+		"nombre" : "The Kelvorian War",
+		"imagen" : "yunati",
+		"titulo" : "The Primordial, sons of Gods",
+		"descripcion" : 
+		
+"Persiste, queen and goddess of the dead, atempted to rise back to Olannia, merging the dead's plane with the material plane. A group of heroes led by Daelrick, bastard son of the king of Kelvor, starts a quest to defeat the lich Ivelius Black, Periste's servant and the main mind behind her plans. The adventurers chase Black across several cities of Amoss until his secret fortress in Port Riverlen, former capitol of Kelvor. The war between the Kelvorian armies and the dead ends with thier banishing back to their world and the destruction of Port Riverlen. After the war, Daelrick, becomes the king of Kelvor and the city of Adatla is founded next to the ruins of the old city."
+
+}
 
 ]
