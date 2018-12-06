@@ -5,17 +5,22 @@ using UnityEngine.UI;
 
 public class TimeLinePanel : MonoBehaviour
 {
-    public Image ImagePanel;
-    public Text Title;
+    [SerializeField] private Image ImagePanel;
+    [SerializeField] private Image ImagePanel2;
+    [SerializeField] private Text Title;
     [SerializeField] private Text description;
     [SerializeField] private RectTransform textContainer;
     [SerializeField] private ScrollRect scrollRect;
     public GameObject ButtonObject;
     private Coroutine adjustSizeCoroutine = null;
 
-    public void SetDescription(string description)
+    public void Init(InstanceContent instanceContent, bool activateButton)
     {
-        this.description.text = description;
+        this.Title.text = instanceContent.Title;
+        this.description.text = instanceContent.Description;
+        this.ImagePanel.sprite = Resources.Load<Sprite>("SidePanelImages/" + instanceContent.Image);
+        this.ImagePanel2.sprite = Resources.Load<Sprite>("SidePanelImages/" + instanceContent.Image2);
+        ButtonObject.SetActive(activateButton);
 
         if (adjustSizeCoroutine != null)
         {

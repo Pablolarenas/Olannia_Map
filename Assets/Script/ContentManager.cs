@@ -27,14 +27,9 @@ public class ContentManager : MonoBehaviour
 
         for (int city = 0; city < data.Count; city++)
         {
-            ListOfContentTimeline.Add(new InstanceContent(data[city]["nombre"].Value, data[city]["imagen"].Value, data[city]["titulo"].Value, data[city]["descripcion"].Value));
+            ListOfContentTimeline.Add(new InstanceContent(data[city]["nombre"].Value, data[city]["imagen"].Value, data[city]["imagen2"].Value, data[city]["titulo"].Value, data[city]["descripcion"].Value));
         }
     }
-	
-	void Update ()
-    {
-		
-	}
 
 
     public InstanceContent GetContentInstance(string name)
@@ -48,6 +43,7 @@ public class InstanceContent
 {
     public string Name;
     public string Image;
+    public string Image2;
     public string Title;
     public string Description;
 
@@ -55,6 +51,15 @@ public class InstanceContent
     {
         Name = name;
         Image = image;
+        Title = title;
+        Description = description;
+    }
+
+    public InstanceContent(string name, string image, string image2, string title, string description)
+    {
+        Name = name;
+        Image = image;
+        Image2 = image2;
         Title = title;
         Description = description;
     }
