@@ -531,7 +531,7 @@ After the rebellion were finished, the surviving ones were taken to the draconic
 	
 														{
 		"nombre" : "Rise of the Sultari",
-		"imagen" : "Kul",
+		"imagen" : "rise",
 		"titulo" : "Rise of The Sultari",
 		"descripcion" : 
 		
