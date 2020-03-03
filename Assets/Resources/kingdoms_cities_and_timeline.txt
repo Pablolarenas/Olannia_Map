@@ -71,15 +71,19 @@ The humans and dwarves in the area have light hair (blond and reddish tones) and
 <b><color=#560000>•Alliances:</color></b> None.\n
 <b><color=#560000>•Rivalities:</color></b> Ish-Khan, Kulth, Ramneshkan, Zav-Azur, Arannia.\n
 <b><color=#560000>•Nickname:</color></b> Paladins.\n\n
-The crusader’s nation, self-claimed the true herit of Yawynia, the old city of the Shield Dragons during the Golden Age, is has been rised in the vast northern valleys to the north of The Thunder.  The republic, founded over the ruins of the old empire, gazes the constant expansion of the realm along Amoss. The crusade: to purify the earth from the darkness unleashed during the Portal Wars and redeem the human kind.\n \n
+La nación de los cruzados, se ve a ella misma como la auténtica heredera de Yawynia, el mítico reino de los Altos Dragones de Edad de Oro, habiendo expandido su influencia a lo ancho y largo del extenso Valle de Oro y el norte de Amoss.
 
-The Verossians are active detractors of the arcane sciences, believing that those practices are a violation of Hellos sacred rules, responsible of provoking their wrath in the past. Instead, they defend and promote the words of the gods of light, particularly of Serveus, god of Justice, the main patron of the Shining Sword, the Imperial military order.\n \n 
+La república, fundada sobre las ruinas del antiguo imperio dracónico, se articula en torno a un solo propósito: Purificar la tierra de la oscuridad desatada durante las Guerras Portal y redimir a la humanidad.
 
-Veross has aggressively expanded their territory in the last 50 years, imposing their laws the wild clans of the northern plains, becoming a large and powerful empire.\n \n
+Los verossianos son detractores activos de las ciencias arcanas, creyendo que esas prácticas son una violación de las reglas sagradas de los dioses, responsable de provocar su ira en el pasado. En cambio, defienden y promueven las sagradas escrituras de los dioses de la luz, a través de; accionar de su principal orden: La Espada Brillante.
 
-Despite its raputation as a dogmatic and , the Verossian Empire is respected and feared along the world. Their church is strong and has very deep influeces among the surrounding realms. And its military forces are large and powerful.\n \n 
+Veross ha expandido agresivamente su territorio en los últimos 50 años, imponiendo sus leyes a los clanes salvajes de las llanuras del norte, absorviendo algunas ciudades estado y anexando continuamene más y más territorios a su imperio.
 
-Verossians are particulary, despotic, racist and distrust of foreign cultures and their negative influence in their traditions and laws. They are seen as intolerants and religiously fanatic by its detractors, but also they are considered nobels and honorables among their allies. "
+El Imperio Verossiano es respetado y temido en todo el mundo. Su iglesia es altamente estructurada, organizada e influyente, incluso mas alla de sus fronteras; manteniendo sólidas relaciones con otras iglesias de reinos vecinos.
+
+Los verossi son particularmente déspotas, orgullosos, racistas, desconfiando de las culturas extranjeras y su influencia negativa en sus tradiciones y leyes. Si bien son vistos como intolerantes y religiosamente fanáticos por sus detractores, son también considerados hombres nobles y honorables entre sus aliados.
+
+En relación al conflicto en Kerak, Veross es el actor más influyente en la costa, liderando la resistencia contra Zav-Azur como el principal aliado de Fharla y, por consiguiente, el enemigo más fuerte de los Sultari."
 
 	}
 	{
