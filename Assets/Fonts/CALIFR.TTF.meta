@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 515a0fff02be107419819659d205d48e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Californian FB
+  fontNames:
+  - Californian FB
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4be86abbcb17faa47922b371ca6c8c00, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
