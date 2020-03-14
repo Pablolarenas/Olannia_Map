@@ -17,7 +17,7 @@
 		{
 		"nombre" : "Oktapon",
 		"imagen" : "Okta",
-		"titulo" : "Oktapon: El Mar Nordico",
+		"titulo" : "Oktapon: El Mar de Hielo",
 		"descripcion" : 
 		
 		
